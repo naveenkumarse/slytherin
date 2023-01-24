@@ -1,0 +1,30 @@
+.shield {
+  height: 200px;
+  width: 200px;
+    margin: 20px;
+  border: 10px solid;
+  border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(211,211,211,1) 17%, rgba(128,128,128,1) 100%) border-box;
+}
+.shield:hover {
+  transition: transform 600ms;
+  transform: translateY(-15px);
+}
+
+.mar-20{
+  margin: 20px;
+}
+
+.shield-wrap {
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 720px) {
+  .shield-wrap {
+    justify-content: center !important;
+  }
+  .shield:hover {
+    margin: 20px;
+  }
+}

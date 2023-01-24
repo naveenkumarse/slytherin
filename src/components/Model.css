@@ -1,0 +1,36 @@
+.model-head {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  backdrop-filter: blur(3px);
+}
+
+.dialog-box {
+  background-color: #122117;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.mx-20 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cls-btn {
+  background-color: #c91e25 !important;
+  border-radius: 5px;
+}
+
+.reg-btn {
+  background-color: #00df9a !important;
+  border-radius: 5px;
+}
