@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import "./EventPage.css"; 
 import {Fade} from 'react-reveal'; 
 import Modal from "./Model";
+import Eventdetails from "./eventdetails";
 
 function EventPage(){
     var contest = ['first','second','third'];
@@ -26,7 +27,12 @@ function EventPage(){
                         <div id="1" className="shield" onClick={handleClick}></div>
                         <div id="2" className="shield" onClick={handleClick}></div>
                         <div id="3" className="shield" onClick={handleClick}></div>
-                    </div>
+                        <div className="second">
+                        <div id="4" className="shield" onClick={handleClick}></div>
+                        <div id="5" className="shield" onClick={handleClick}></div>
+                        </div>
+                        
+                        </div>
                 </Fade>
             </div>
             {isOpen && <Modal setIsOpen={setIsOpen} handleClick={handleClick} Content={contest[Contest]}/>}

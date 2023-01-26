@@ -4,8 +4,8 @@ import './About.css';
 
 function card() {
     return (
-        <div className='p-[10px] mx-auto complete--card'>
-            <div className='card--x flex flex-row justify-end'>
+        <div className='pl-[40px] pr-[40px] complete--card'>
+            <div className='card--x flex flex-row justify-between'>
                 <Slide left duration={2000}>
                     <img src="robotrununscreen.gif" alt="my-gif" className='w-[340px] h-[200px]' />
                 </Slide>
@@ -19,7 +19,7 @@ function card() {
                 </Slide>
 
             </div>
-            <div className='card--x--odd flex flex-row justify-start'>
+            <div className='card--x--odd flex flex-row justify-between'>
                 <Slide left duration={2000}>
                     <div className=' p-[20px]'>
                         <h3 className='font-bold text-2xl text-[#00df9a]'>MISSION AND VISION</h3>
@@ -29,10 +29,10 @@ function card() {
                     </div>
                 </Slide>
                 <Slide right duration={2000}>
-                    <img src={"Shoot-unscreen.gif"} alt="my-gif" className='w-[200px] h-[200px] mr-[200px]' />
+                    <img src={"Shoot-unscreen.gif"} alt="my-gif" className='w-[200px] h-[200px]' />
                 </Slide>
             </div>
-            <div className='card--x flex flex-row justify-end'>
+            <div className='card--x flex flex-row justify-between'>
                 <Slide left duration={2000}>
                     <img src={"ultrarobo-unscreen.gif"} alt="my-gif" className='w-[355px] h-[230px]  principle-image' />
                 </Slide>

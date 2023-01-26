@@ -19,6 +19,13 @@
   max-width: 900px;
   flex-wrap: wrap;
 }
+.second{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 150px;
+  gap: 6rem;
+}
 
 @media only screen and (max-width: 720px) {
   .shield-wrap {
