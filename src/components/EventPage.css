@@ -20,6 +20,12 @@
   flex-wrap: wrap;
 }
 
+.shield > h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #545454;
+}
+
 @media only screen and (max-width: 720px) {
   .shield-wrap {
     justify-content: center !important;

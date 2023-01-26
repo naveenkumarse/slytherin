@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import "./EventPage.css"; 
 import {Fade} from 'react-reveal'; 
 import Modal from "./Model";
+import MaterialIcon from 'material-icons-react';
 
 function EventPage(){
     var contest = ['first','second','third'];
@@ -23,9 +24,12 @@ function EventPage(){
                 </Fade>
                 <Fade top>
                     <div className="flex shield-wrap w-full justify-between items-center text-center">
-                        <div id="1" className="shield" onClick={handleClick}></div>
-                        <div id="2" className="shield" onClick={handleClick}></div>
+                        <div id="1" className="shield" onClick={handleClick}>
+                            <h1 className="p-2">Robo race</h1>
+                            <MaterialIcon icon="precision_manufacturing" size={100} />
+                        </div>
                         <div id="3" className="shield" onClick={handleClick}></div>
+                        <div id="2" className="shield" onClick={handleClick}></div>
                     </div>
                 </Fade>
             </div>
