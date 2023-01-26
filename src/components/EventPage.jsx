@@ -22,7 +22,6 @@ function EventPage(){
                     </div>
                 </Fade>
                 <Fade top>
-
                     <div className="flex shield-wrap w-full justify-between items-center text-center">
                         <div id="1" className="shield" onClick={handleClick}></div>
                         <div id="2" className="shield" onClick={handleClick}></div>

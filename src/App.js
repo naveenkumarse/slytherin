@@ -11,8 +11,7 @@ import EventPage from './components/EventPage';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -30,7 +29,7 @@ function App() {
             </div>
           } />
           <Route path="/about" element={
-            <div>
+            <div className='about-main'>
               <Header />
               <NavBar />
               <Hero />

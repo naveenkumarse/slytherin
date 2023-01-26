@@ -8,7 +8,7 @@ function hero() {
         <div className='fadeintext'>
             <Zoom>
                 <div className='flex flex-col justify-center item-center text-center m-auto h-screen w-full'>
-                    <h1 className='font-bold text-6xl text-[#00df9a]'>ABO
+                    <h1 className='heading font-bold text-6xl text-[#00df9a]'>ABO
                         <Typed
                             strings={['UT&nbsp;US']}
                             typeSpeed={120}
@@ -19,7 +19,7 @@ function hero() {
                         compared with today
                         <br></br>
                         -Bill Gates
-                    </div>
+                    </div><br></br>
                     <div className='flex justify-center item-center text-center text-white'>
                         <p className='orgin w-[300px]'>Robotics club is started in the moto of giving knowledge for people who are not aware of robotics.It's Started by the higher officials of Kongu Engineering College</p>
                     </div>
