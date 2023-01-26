@@ -24,7 +24,7 @@
 }
 .card--x{
   position:relative;
-  margin-top:70px;
+  /* margin-top:70px; */
   background: inherit;
 }
 .complete--card{

@@ -1,0 +1,27 @@
+li span{
+    display: block;
+    margin-left:  10px;
+}
+.cls-btn {
+    background-color: #c91e25 !important;
+    border-radius: 5px;
+  }
+  
+  .reg-btn {
+    background-color: #00df9a !important;
+    border-radius: 5px;
+  }
+  .mx-20 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+@media only screen and (max-width: 600px){
+    .main-page{
+        margin-top: 30px;
+    }
+    .unordered-list{
+        width: 500px !important;
+        flex-wrap: wrap !important;
+    }
+}
