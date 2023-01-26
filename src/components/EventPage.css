@@ -1,7 +1,11 @@
 .shield {
-  height: 200px;
-  width: 200px;
-    margin: 20px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+  margin: 20px;
   border: 10px solid;
   border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(211,211,211,1) 17%, rgba(128,128,128,1) 100%) border-box;
@@ -11,6 +15,10 @@
   transform: translateY(-15px);
 }
 
+.shield img {
+  height: 100px;
+  width: 100px;
+}
 .mar-20{
   margin: 20px;
 }
@@ -18,13 +26,6 @@
 .shield-wrap {
   max-width: 900px;
   flex-wrap: wrap;
-}
-.second{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  padding-left: 150px;
-  gap: 6rem;
 }
 
 .shield > h1 {

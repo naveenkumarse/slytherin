@@ -19,7 +19,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <div style={{marginBottom:"50px"}}>
       <Router>
         <Routes>
           <Route path="/" element={
@@ -27,7 +27,7 @@ function App() {
               <NavBar />
               <DashBoard />
               <Events />
-              <Cards />
+              {/* <Cards /> */}
             </div>
           } />
           <Route path="/about" element={

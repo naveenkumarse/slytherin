@@ -11,7 +11,7 @@ const Modal = ({ setIsOpen,handleClick,Content }) => {
           <h1 className="sm:text-4xl text-xl font-bold p-[10px] text-[#00df9a]">
             Event name
           </h1>
-            <p className="p-[10px] text-[#ffff]">
+            <p className="p-[10px] text-white">
               {Content}
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam eos, quas sed numquam ut iusto modi obcaecati impedit neque dolor repudiandae quasi est nostrum temporibus quaerat ea possimus fuga.
             </p>
