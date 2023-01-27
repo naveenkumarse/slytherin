@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import "./EventPage.css"; 
+import "../styles/EventPage.css"; 
 import {Fade} from 'react-reveal'; 
 import Modal from "./Model";
 import path from "./../assets/icons/path.png";
@@ -30,33 +30,42 @@ function EventPage(){
                 </Fade>
                 <Fade top>
                     <div className="flex shield-wrap w-full justify-between items-center text-center">
-                    <Link to="/eventdetails">
-                        <div id="1" className="shield" >
-                            <h1 className="p-2">Robo race</h1>
-                            <img src={tyre} alt="race" />
-                        </div>
+                        <Link to="/eventdetails1">
+                            <div id="1" className="shield" >
+                                <h1 className="p-2">Maze Solver</h1>
+                                <img src={mental} alt="race" />
+                            </div>
                         </Link>
-                        <div id="2" className="shield" onClick={handleClick}>
-                            <h1 className="p-2">Robo war</h1>
-                            <img src={sword} alt="fight" />
-                        </div>
-                        <div id="3" className="shield" onClick={handleClick}>
-                            <h1 className="p-2">Robo Soccer</h1>
-                            <img src={ball} alt="Soccer" />
-                        </div>
-                        <div id="4" className="shield" onClick={handleClick}>
-                            <h1 className="p-2">Line Follwer</h1>
-                            <img src={path} alt="Line" />
-                        </div>
-                        <div id="5" className="shield" onClick={handleClick}>
-                            <h1 className="p-2">Maze Solver</h1>
-                            <img src={mental} alt="race" />
-                        </div>
-                        <div id="6" className="shield" onClick={handleClick}>
-                            <h1 className="p-2">Workshop</h1>
-                            <img src={train} alt="workshop" />
-                        </div>
-                        
+                        <Link to="/eventdetails2">
+                            <div id="2" className="shield" onClick={handleClick}>
+                                <h1 className="p-2">Robo war</h1>
+                                <img src={sword} alt="fight" />
+                            </div>
+                        </Link>
+                        <Link to="/eventdetails3">
+                            <div id="3" className="shield" onClick={handleClick}>
+                                <h1 className="p-2">Robo Soccer</h1>
+                                <img src={ball} alt="Soccer" />
+                            </div>
+                        </Link>
+                        <Link to="/eventdetails4">
+                            <div id="4" className="shield" onClick={handleClick}>
+                                <h1 className="p-2">Line Follwer</h1>
+                                <img src={path} alt="Line" />
+                            </div>
+                        </Link>
+                        <Link to="/eventdetails5">
+                            <div id="5" className="shield" onClick={handleClick}>
+                                <h1 className="p-2">Robo race</h1>
+                                <img src={tyre} alt="race" />
+                            </div>
+                        </Link>
+                        <Link to="/eventdetails6">
+                            <div id="6" className="shield" onClick={handleClick}>
+                                <h1 className="p-2">Workshop</h1>
+                                <img src={train} alt="workshop" />
+                            </div>
+                        </Link>
                     </div>
                 </Fade>
             </div>

@@ -1,5 +1,5 @@
 import './App.css';
-import Cards from './components/cards';
+// import Cards from './components/cards';
 import DashBoard from './components/DashBoard';
 import Events from './components/Events';
 import NavBar from './components/NavBar';
@@ -8,6 +8,11 @@ import Header from './components/header';
 import Card from './components/card';
 import EventPage from './components/EventPage';
 import Eventdetails from './components/eventdetails'
+import Eventdetails2 from './components/eventdetails2'
+import Eventdetails3 from './components/eventdetails3'
+import Eventdetails4 from './components/eventdetails4'
+import Eventdetails5 from './components/eventdetails5'
+import Eventdetails6 from './components/eventdetails6'
 
 
 import {
@@ -15,6 +20,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import ComboOffer from './components/combo_offer';
+// import Footer from './components/footer';
 
 
 function App() {
@@ -24,9 +31,13 @@ function App() {
         <Routes>
           <Route path="/" element={
             <div>
+              <Header />
               <NavBar />
               <DashBoard />
+              <ComboOffer/>
               <Events />
+              <Card />
+              {/* <Footer/> */}
               {/* <Cards /> */}
             </div>
           } />
@@ -35,7 +46,12 @@ function App() {
               <Header />
               <NavBar />
               <Hero />
-              <Card />
+            </div>
+          } />
+          <Route path="/previous_year_events" element={
+            <div >
+              <Header />
+              <NavBar />
             </div>
           } />
           <Route path="/events" element={
@@ -46,13 +62,46 @@ function App() {
               
             </>
           } />
-           <Route path="/eventdetails" element={
+           <Route path="/eventdetails1" element={
             <>
               <Header />
               <NavBar />
-              <Eventdetails 
-              title="ROBO RACE"
-              />
+              <Eventdetails />
+            </>
+          } />
+           <Route path="/eventdetails2" element={
+            <>
+              <Header />
+              <NavBar />
+              <Eventdetails2 />
+            </>
+          } />
+           <Route path="/eventdetails3" element={
+            <>
+              <Header />
+              <NavBar />
+              <Eventdetails3 />
+            </>
+          } />
+           <Route path="/eventdetails4" element={
+            <>
+              <Header />
+              <NavBar />
+              <Eventdetails4 />
+            </>
+          } />
+           <Route path="/eventdetails5" element={
+            <>
+              <Header />
+              <NavBar />
+              <Eventdetails5 />
+            </>
+          } />
+           <Route path="/eventdetails6" element={
+            <>
+              <Header />
+              <NavBar />
+              <Eventdetails6 />
             </>
           } />
         </Routes>

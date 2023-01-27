@@ -10,14 +10,14 @@ const NavBar = () => {
     }
     return (
         <>
-            <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 relative">
+            <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-2 relative">
                 <h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus </h1>
                     
 <ul className="hidden md:flex">
                     <li className="p-4"><Link to="/">Home</Link></li>
                     <li className="p-4"><Link to="/events">Event</Link></li>
                     <li className="p-4"><Link to="/about">About</Link></li>
-                    <li className="p-4"><Link to="/events">Register</Link></li>
+                    <li className="p-4"><Link to="/previous_year_events">Others</Link></li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -29,7 +29,7 @@ const NavBar = () => {
                         <li className="p-4 border-b border-gray-600"><Link to="/">Home</Link></li>
                         <li className="p-4 border-b border-gray-600"><Link to="/events">Event</Link></li>
                         <li className="p-4 border-b border-gray-600"><Link to="/about">About</Link></li>
-                        <li className="p-4"><Link to="/events">Register</Link></li>
+                        <li className="p-4"><Link to="/previous_year_events">Others</Link></li>
                     </ul>
                 </div>
             </div>

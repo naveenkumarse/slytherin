@@ -1,5 +1,5 @@
 import React from "react";
-import './Model.css';
+import '../styles/Model.css';
 import {Fade} from 'react-reveal';
 
 const Modal = ({ setIsOpen,handleClick,Content }) => {
