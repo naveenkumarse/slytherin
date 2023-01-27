@@ -10,23 +10,16 @@ import train from "./../assets/icons/training.png";
 import tyre from "./../assets/icons/tyre.png";
 import { Link } from "react-router-dom";
 
-function EventPage(){
-    var contest = ['first','second','third'];
-    const [isOpen, setIsOpen] = useState(false);
-    const [Contest,setContest] = useState(1);
-    const handleClick = event => {
-        setIsOpen(current => !current);
-        setContest(Number(event.target.id));
-    };
-    return(
+function EventPage() {
+    return (
         <>
             <div className="flex flex-col justify-center text-center items-center w-full relative">
                 <Fade left cascade>
-                    <div className="flex mar-20">
-                        <h1 className="md:text-5xl sm:text-4xl text-xl font-bold text-white">
-                            Technical Events 
-                        </h1>
-                    </div>
+                <div className="flex mar-20">
+                    <h1 className="md:text-5xl sm:text-4xl text-xl font-bold text-white">
+                        Technical Events
+                    </h1>
+                </div>
                 </Fade>
                 <Fade top>
                     <div className="flex shield-wrap w-full justify-between items-center text-center">
@@ -69,7 +62,6 @@ function EventPage(){
                     </div>
                 </Fade>
             </div>
-            {isOpen && <Modal setIsOpen={setIsOpen} handleClick={handleClick} Content={contest[Contest]}/>}
         </>
     )
 }

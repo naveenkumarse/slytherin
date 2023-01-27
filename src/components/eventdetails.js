@@ -1,10 +1,17 @@
 import React from 'react'
 import '../styles/eventdetails.css'
 import Fade from 'react-reveal/Fade';
+import Datas from './event_description';
+import NavBar from './NavBar';
+import Header from './header';
+import { useParams } from "react-router-dom";
 
 function eventdetails1() {
   return (
-    < >
+    <>
+      <Header />
+      <NavBar />
+      <div>
         <Fade bottom duration={2000}>
         <div className='relative flex flex-col justify-center leading-7 text-white main-page'>
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>MAZE SOLVER</h1><br></br>
@@ -51,7 +58,8 @@ function eventdetails1() {
         <div className="flex justify-center relative">
             <a  href='https://forms.gle/9jxnVmAQ2QxBLx176' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>
           </div><br></br>
-          </Fade>
+        </Fade>
+      </div>
     </>
   )
 }
