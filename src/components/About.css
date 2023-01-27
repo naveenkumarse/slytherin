@@ -36,17 +36,12 @@
 }
 .about-main {
   margin: 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: white;
   overflow-x: hidden;
   line-height: 2rem;
 }
-
-
 @media only screen and (max-width: 600px) {
   .about-main {
-    font-family: 'Poppins',sans-serif;
     width: 100%;
     overflow-x: hidden;
     margin: 0px;
@@ -79,7 +74,7 @@
     align-items: center !important;
   }
   .card--x{
-    width: 80% !important;
+    width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -92,7 +87,7 @@
     text-align: center !important;
   }
   .card--x--odd{
-    width: 80% !important;
+    width: 100% !important;
     display: flex !important;
     flex-direction: column-reverse !important;
     justify-content: center !important;
@@ -111,13 +106,16 @@
     justify-content:center !important;
     align-items: center !important;
     margin: 0px !important;
-    margin-top: -200px;
+    margin-top: 300px !important;
   }
   .heading{
     font-size: 30px !important;
   }
   .principle-image{
     height: 200px !important;
+  }
+  .fadeintext{
+    margin-top: 450px;
   }
 
 }

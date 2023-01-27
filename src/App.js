@@ -7,8 +7,7 @@ import Hero from './components/hero';
 import Header from './components/header';
 import Card from './components/card';
 import EventPage from './components/EventPage';
-import Eventdetails from './components/eventdetails'
-
+import Eventdetails from './components/eventdetails';
 
 import {
   BrowserRouter as Router,
@@ -46,14 +45,8 @@ function App() {
               
             </>
           } />
-           <Route path="/eventdetails" element={
-            <>
-              <Header />
-              <NavBar />
-              <Eventdetails 
-              title="ROBO RACE"
-              />
-            </>
+           <Route path="/eventdetails/:contest_id" element={
+            <Eventdetails/>
           } />
         </Routes>
       </Router>

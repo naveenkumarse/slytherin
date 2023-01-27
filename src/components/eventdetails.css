@@ -15,13 +15,16 @@ li span{
     margin-left: 10px;
     margin-right: 10px;
   }
+  .unordered-list{
+    max-width: 800px !important;
+    flex-wrap: wrap !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
   
 @media only screen and (max-width: 600px){
     .main-page{
         margin-top: 30px;
     }
-    .unordered-list{
-        width: 500px !important;
-        flex-wrap: wrap !important;
-    }
+
 }

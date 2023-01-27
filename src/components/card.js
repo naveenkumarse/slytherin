@@ -4,16 +4,15 @@ import './About.css';
 
 function card() {
     return (
-        <div className='pl-[40px] pr-[40px] complete--card'>
+        <div className='pl-[40px] pr-[40px] complete--card mt-[50px]'>
             <div className='card--x flex flex-row justify-between'>
                 <Slide left duration={2000}>
                     <img src="robotrununscreen.gif" alt="my-gif" className='w-[340px] h-[200px]' />
                 </Slide>
                 <Slide right duration={2000}>
-                    <div className=' p-[20px] '>
-                        <h3 className='font-bold text-2xl text-[#00df9a]'>ACHEIVEMENTS</h3>
-                        <p className='w-[500px] description '>Robotics clubs are acheived in more national level competitions.And it's has the most valuable club.<br></br>
-                            
+                    <div className='  '>
+                        <h3 className='font-bold text-2xl text-[#00df9a]'>OBJECTIVES</h3>
+                        <p className='w-[600px] description '>To transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders.<br></br>
                         </p>
                     </div>
                 </Slide>
@@ -21,10 +20,10 @@ function card() {
             </div>
             <div className='card--x--odd flex flex-row justify-between'>
                 <Slide left duration={2000}>
-                    <div className=' p-[20px]'>
-                        <h3 className='font-bold text-2xl text-[#00df9a]'>MISSION AND VISION</h3>
-                        <p className='w-[500px] description--odd'>Robotics clubs are acheived in more national level competitions.And it's has the most valuable club.<br></br>
-                            
+                    <div className=' '>
+                        <h3 className='font-bold text-2xl text-[#00df9a]'>MISSION</h3>
+                        <p className='w-[600px] description--odd'>Our mission is to inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.<br></br>
+
                         </p>
                     </div>
                 </Slide>
@@ -37,9 +36,9 @@ function card() {
                     <img src={"ultrarobo-unscreen.gif"} alt="my-gif" className='w-[355px] h-[230px]  principle-image' />
                 </Slide>
                 <Slide right duration={2000}>
-                    <div className=' p-[20px] card--x odd-texts'>
-                        <h3 className='font-bold text-2xl text-[#00df9a]'>PRINCIPLES</h3>
-                        <p className='w-[500px] description'>Robotics clubs are acheived in more national level competitions.And it's has the most valuable club.<br></br> 
+                    <div className=' card--x odd-texts'>
+                        <h3 className='font-bold text-2xl text-[#00df9a]'>VISION</h3>
+                        <p className='w-[600px] description'>To become the greatest Robotics team in the South Zone and an annual competitor at the international level Robotics Competitions. Exemplifying the importance of service through continual expansion in focus and scale of community service projects within India. Acknowledging and addressing contemporary environmental issues through the adoption and innovation of new forms of clean building measures.<br></br>
                         </p>
                     </div>
                 </Slide>
