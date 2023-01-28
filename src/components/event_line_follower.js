@@ -47,7 +47,7 @@ function eventdetails4() {
         
         <div className="flex justify-center relative">
 
-        <a  href='https://forms.gle/86QQbY2khJDA6Bwt9' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>          </div><br></br>
+        <a  href='https://forms.gle/zezjLwi19KQpwZVf9 ' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>          </div><br></br>
           </Fade>
     </>
   )

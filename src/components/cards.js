@@ -8,18 +8,17 @@ const Cards = () => {
         <div className="flip-card ">
           <div className="flip-card-inner">
             <div className="flip-card-front bottom-9 right-9">
-              <p className="mytitle" >Combo Offer</p>
+              <p className="mytitle" >Combo Offers</p>
             </div>
             <div className="flip-card-back">
               <div className=" font-mono ">
                 <p>
-                  (Robo soccer/Robo Race) + manipulator workshop - ₹750 
                 </p>
                 <br/>
                 <hr/>
                 <br/>
                 <p>
-                  Line follower+maze solver+manipulator workshop - ₹1050
+                <b>  Line follower+maze solver+manipulator workshop - ₹1050 </b>
                 </p>
               </div>
             </div>

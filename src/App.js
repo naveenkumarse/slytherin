@@ -7,12 +7,12 @@ import Hero from './components/hero';
 import Header from './components/header';
 import About from './components/card';
 import EventPage from './components/EventPage';
-import Eventdetails from './components/eventdetails'
-import Eventdetails2 from './components/eventdetails2'
-import Eventdetails3 from './components/eventdetails3'
-import Eventdetails4 from './components/eventdetails4'
-import Eventdetails5 from './components/eventdetails5'
-import Eventdetails6 from './components/eventdetails6'
+import Eventdetails from './components/event_maze_solver'
+import Eventdetails2 from './components/event_robo_war'
+import Eventdetails3 from './components/event_robo_soccer'
+import Eventdetails4 from './components/event_line_follower'
+import Eventdetails5 from './components/event_robo_race'
+import Eventdetails6 from './components/event_workshop'
 import Footer from './components/footer';
 import History from './components/history';
 

@@ -41,7 +41,7 @@ function eventdetails2() {
         
         <div className="flex justify-center relative">
 
-        <a  href='https://forms.gle/ifx8kJZ8u2r48vZB6' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>          </div><br></br>
+        <a  href='https://forms.gle/8DeU4su2LfmtXTWS9' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>          </div><br></br>
           </Fade>
     </>
   )
