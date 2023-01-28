@@ -3,7 +3,7 @@ import Card from './components/cards';
 import DashBoard from './components/DashBoard';
 import Events from './components/Events';
 import NavBar from './components/NavBar';
-import Hero from './components/hero';
+import Hero from './components/about/hero';
 import Header from './components/header';
 import About from './components/card';
 import EventPage from './components/EventPage';
