@@ -13,6 +13,7 @@ const Cards = () => {
             <div className="flip-card-back">
               <div className=" font-mono ">
                 <p>
+                 <b> (Robo soccer/Robo Race) + manipulator workshop - ₹750 </b>
                 </p>
                 <br/>
                 <hr/>
