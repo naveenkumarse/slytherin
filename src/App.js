@@ -18,9 +18,9 @@ import History from './components/history';
 
 
 import {
-  BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 
@@ -28,7 +28,7 @@ import {
 function App() {
   return (
     <div >
-      <Router>
+      <HashRouter>
         <Routes>
           <Route path="/" element={
             <div>
@@ -117,7 +117,7 @@ function App() {
             </>
           } />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
