@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/eventdetails.css'
 import Fade from 'react-reveal/Fade';
+import './eventdetails.css'
 
 function eventdetails4() {
   return ( 
@@ -10,8 +11,8 @@ function eventdetails4() {
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>LINE FOLLOWER</h1><br></br>
         <div className='flex flex-col justify-center align-center items-center'>
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
-            <div className=' w-[800px] p-[30px] unordered-list m-auto '>
-            <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
+            <div className='p-[30px] unordered-list m-auto '>
+            <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3 '> 
             <li>	Maximum Number of members in a team is 4<br/></li>
             <li>	Only one autonomous bot per team<br/></li>
             <li>	At the start of the task, the bot will be placed at the starting point. Only two members of a team is allowed to be near the game field while starting the bot.<br/></li>
@@ -29,7 +30,7 @@ function eventdetails4() {
         </div><br></br>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">BOT SPECIFICATIONS</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] list-disc pl-5 space-y-3'>
             <li>	Using greater voltages than 12V is forbidden <br/></li>
             <li>	Bot dimension should be maximum of 25cm x 25cm x 25cm <br/></li>

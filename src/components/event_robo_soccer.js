@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/eventdetails.css'
 import Fade from 'react-reveal/Fade';
+import './eventdetails.css'
 
 function eventdetails3() {
   return (
@@ -10,7 +11,7 @@ function eventdetails3() {
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>ROBO SOCCER</h1><br></br>
         <div className='flex flex-col justify-center align-center items-center'>
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
-            <div className=' w-[800px] p-[30px] unordered-list m-auto '>
+            <div className='p-[30px] unordered-list m-auto '>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
             <li>	Each team is required to construct a single robot.<br/></li>
             <li>	The maximum number of participants in a team is 4.<br/></li>
@@ -31,7 +32,7 @@ function eventdetails3() {
         </div><br></br>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">ARENA SPECIFICATIONS</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className=' p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
             <li>	The dimensions of the play area are 400cm x 200 cm.<br/></li>
             <li>	The height of the wall is 15 cm.<br/></li>
@@ -52,7 +53,7 @@ function eventdetails3() {
         </div>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">SCORING PATTERN</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
 <li>	The scoring is same as the normal football games.<br/></li>
 <li>	The team which scores a maximum number of goals by the end of full time is considered as the winner of that particular game.<br/></li>
@@ -66,7 +67,7 @@ function eventdetails3() {
         </div>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">ROBOT SPECIFICATIONS</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
             <li>	The dimensions of the bot must not exceed (30 cm x 30 cm x 30 cm) at any point of the game.<br/></li>
             <li>	Both wired and wireless robots are allowed<br/></li>

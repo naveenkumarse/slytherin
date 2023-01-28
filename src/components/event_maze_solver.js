@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/eventdetails.css'
 import Fade from 'react-reveal/Fade';
+import './eventdetails.css'
 
 function eventdetails1() {
   return (
@@ -10,7 +11,7 @@ function eventdetails1() {
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>MAZE SOLVER</h1><br></br>
         <div className='flex flex-col justify-center align-center items-center'>
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
-            <div className=' w-[800px] p-[30px] unordered-list m-auto'>
+            <div className=' p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[#00df9a] marker:text-[24px] list-disc pl-5 space-y-3'> 
               
               <li> 	Maximum number of members in a team is 4.<br/></li>
@@ -33,7 +34,7 @@ function eventdetails1() {
         </div><br></br>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">BOT SPECIFICATIONS</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] list-disc pl-5 space-y-3'>
               
               <li>  Using greater voltage than 12V is prohibited<br/></li>
