@@ -23,6 +23,7 @@ import Eventdetails3 from './components/events/event_robo_soccer';
 import Eventdetails4 from './components/events/event_line_follower';
 import Eventdetails5 from './components/events/event_robo_race';
 import Eventdetails6 from './components/events/event_workshop';
+import OfficeBearerList from './components/about/OfficeBearerList';
 
 
 
@@ -47,7 +48,7 @@ function App() {
               <Header />
               <NavBar />
               <Hero />
-              <Card />
+              <OfficeBearerList/>
               <Footer />
             </div>
           } />
