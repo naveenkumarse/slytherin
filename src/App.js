@@ -13,6 +13,8 @@ import Eventdetails3 from './components/eventdetails3'
 import Eventdetails4 from './components/eventdetails4'
 import Eventdetails5 from './components/eventdetails5'
 import Eventdetails6 from './components/eventdetails6'
+import Footer from './components/footer';
+import History from './components/history';
 
 
 import {
@@ -21,10 +23,6 @@ import {
   Route
 } from "react-router-dom";
 
-import Footer from './components/footer';
-import DevNav from './components/devNav';
-import Developer from './components/developer';
-import History from './components/history';
 
 
 function App() {
@@ -41,7 +39,6 @@ function App() {
               <About />
               <Footer/>
               <Card />
-              <DevNav/>
             </div>
           } />
           <Route path="/about" element={
@@ -51,7 +48,6 @@ function App() {
               <Hero />
               <Card />
               <Footer/>
-              <DevNav/>
             </div>
           } />
           <Route path="/previous_year_events" element={
@@ -61,7 +57,6 @@ function App() {
               <Card />
               <History />
               <Footer/>
-              <DevNav/>
             </div>
           } />
           <Route path="/events" element={
@@ -71,14 +66,6 @@ function App() {
               <EventPage />
               <Card />
               <Footer/>
-              <DevNav/>
-            </>
-          } />
-          <Route path="/developer" element={
-            <>
-              <Header />
-              <NavBar />
-              <Developer />
             </>
           } />
            <Route path="/eventdetails1" element={
@@ -87,7 +74,6 @@ function App() {
               <NavBar />
               <Eventdetails />
               <Card />
-              <DevNav/>
             </>
           } />
            <Route path="/eventdetails2" element={
@@ -96,7 +82,6 @@ function App() {
               <NavBar />
               <Eventdetails2 />
               <Card />
-              <DevNav/>
             </>
           } />
            <Route path="/eventdetails3" element={
@@ -105,7 +90,6 @@ function App() {
               <NavBar />
               <Eventdetails3 />
               <Card />
-              <DevNav/>
             </>
           } />
            <Route path="/eventdetails4" element={
@@ -114,7 +98,6 @@ function App() {
               <NavBar />
               <Eventdetails4 />
              <Card />
-             <DevNav/>
             </>
           } />
            <Route path="/eventdetails5" element={
@@ -123,7 +106,6 @@ function App() {
               <NavBar />
               <Eventdetails5 />
              <Card />
-             <DevNav/>
             </>
           } />
            <Route path="/eventdetails6" element={
@@ -132,7 +114,6 @@ function App() {
               <NavBar />
               <Eventdetails6 />
               <Card />
-             <DevNav/>
             </>
           } />
         </Routes>
