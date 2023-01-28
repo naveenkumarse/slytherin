@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Typed from 'react-typed';
 import Spinner from './spinner';
+import Card from './cards' ;
 
 const DashBoard = () => {
     return (
         <>
-            <div className="text-white relative"  >
+            <div className="text-white relative flex flex-wrap justify-center"  >
                 <div className="max-w-[800px] w-full h-[610px] mx-auto text-center gap-x-50 gap-y-0 flex max-lg:flex-col justify-center">
                     <div className="flex justify-center text-center item-center lg:flex-col mt-10">
                         <Spinner />
@@ -28,6 +29,9 @@ const DashBoard = () => {
                         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Register soon </button>
                         </Link>
                     </div>
+                </div>
+                <div className="flex flex-col justify-end items-center	">
+                    <Card/>
                 </div>
             </div>
         </>

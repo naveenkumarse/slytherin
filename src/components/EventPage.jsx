@@ -8,6 +8,8 @@ import train from "./../assets/icons/training.png";
 import tyre from "./../assets/icons/tyre.png";
 import { Link } from "react-router-dom";
 import Zoom from 'react-reveal/Zoom';
+import Card from './cards' ;
+
 import poster from './../assets/Expelliarmus.jpg';
 
 function EventPage() {
@@ -61,6 +63,9 @@ function EventPage() {
                         </Link>
                     </div>
                 </Fade>
+            </div>
+            <div className="flex flex-col justify-end items-center	">
+                <Card/>
             </div>
                 <Zoom bottom>
                     <div  className="mx-auto " style={{width:"calc(100%*0.8)",marginTop:"150px"}}>

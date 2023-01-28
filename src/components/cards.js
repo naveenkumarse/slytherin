@@ -4,10 +4,10 @@ import "../styles/cards.css";
 
 const Cards = () => {
   return (
-    <div className="fixed bottom-9 right-9">
+    <div className="m-10">
         <div className="flip-card ">
           <div className="flip-card-inner">
-            <div className="flip-card-front bottom-9 right-9">
+            <div className="flip-card-front ">
               <p className="mytitle" >Combo Offers</p>
             </div>
             <div className="flip-card-back">
