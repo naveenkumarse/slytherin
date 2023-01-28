@@ -7,11 +7,13 @@ import sword from "./../assets/icons/swords.png";
 import train from "./../assets/icons/training.png";
 import tyre from "./../assets/icons/tyre.png";
 import { Link } from "react-router-dom";
+import Zoom from 'react-reveal/Zoom';
+import poster from './../assets/Expelliarmus.jpg';
 
 function EventPage() {
     return (
         <>
-            <div className="flex flex-col justify-center text-center items-center w-full relative">
+            <div className="flex flex-col justify-center text-center items-center h-scree w-full relative">
                 <Fade left cascade>
                 <div className="flex mar-20">
                     <h1 className="md:text-5xl sm:text-4xl text-xl font-bold text-white">
@@ -60,6 +62,11 @@ function EventPage() {
                     </div>
                 </Fade>
             </div>
+                <Zoom bottom>
+                    <div  className="mx-auto " style={{width:"calc(100%*0.8)",marginTop:"150px"}}>
+                        <img  src={poster} alt="poster" />
+                    </div>
+                </Zoom>
         </>
     )
 }

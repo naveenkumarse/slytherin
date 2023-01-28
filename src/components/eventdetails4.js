@@ -42,7 +42,8 @@ function eventdetails4() {
             
         </div>
         </div>
-        
+        <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹400</h1><br/><br/><br/>
+
         
         <div className="flex justify-center relative">
 

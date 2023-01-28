@@ -1,71 +1,28 @@
 import React from "react";
-import Anime from "../assets/Oj0z.gif";
 import "../styles/cards.css";
 
 
 const Cards = () => {
   return (
-    <div className="">
-      <div className="flexbox">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img className="w-20 mx-auto mt-[-3rem] " src={Anime} />
-              <h2 className="text-2xl font-bold text-center py-8">
-                Robo soccer
-              </h2>
-              <p className="text-center text-4xl font-bold">Rs.100/-</p>
+    <div className="fixed bottom-9 right-9">
+        <div className="flip-card ">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bottom-9 right-9">
+              <p className="mytitle" >Combo Offer</p>
             </div>
-            <div class="flip-card-back">
-              <div className="">
-                <div className="text-center font-medium">
-                  <p className="py-2 border-b mx-8 mt-8">Rule1</p>
-                  <p className="py-2 border-b mx-8">Rule2</p>
-                  <p className="py-2 border-b mx-8">Rule3</p>
-                </div>
+            <div className="flip-card-back">
+              <div className=" font-mono ">
+                <p>
+                  (Robo soccer/Robo Race) + manipulator workshop - ₹750 
+                </p>
+                <br/>
+                <hr/>
+                <br/>
+                <p>
+                  Line follower+maze solver+manipulator workshop - ₹1050
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img className="w-20 mx-auto mt-[-3rem] " src={Anime} />
-              <h2 className="text-2xl font-bold text-center py-8">
-                Robo soccer
-              </h2>
-              <p className="text-center text-4xl font-bold">Rs.100/-</p>
-            </div>
-            <div class="flip-card-back">
-              <div className="">
-                <div className="text-center font-medium">
-                  <p className="py-2 border-b mx-8 mt-8">Rule1</p>
-                  <p className="py-2 border-b mx-8">Rule2</p>
-                  <p className="py-2 border-b mx-8">Rule3</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img className="w-20 mx-auto mt-[-3rem] " src={Anime} />
-              <h2 className="text-2xl font-bold text-center py-8">
-                Robo soccer
-              </h2>
-              <p className="text-center text-4xl font-bold">Rs.100/-</p>
-            </div>
-            <div class="flip-card-back">
-              <div className="">
-                <div className="text-center font-medium">
-                  <p className="py-2 border-b mx-8 mt-8">Rule1</p>
-                  <p className="py-2 border-b mx-8">Rule2</p>
-                  <p className="py-2 border-b mx-8">Rule3</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

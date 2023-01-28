@@ -35,11 +35,11 @@ function eventdetails6() {
             
         </div>
         </div>
-        
+        <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹300</h1><br/><br/><br/>
+
         
         <div className="flex justify-center relative">
         <a  href='https://forms.gle/SbiYwj6Emdi3swzN8' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>          
-            {/* <button type="submit" className=" font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</button> */}
           </div><br></br>
           </Fade>
     </>

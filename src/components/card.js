@@ -1,6 +1,7 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide';
 import '../styles/About.css';
+// import shoot from "";
 
 function card() {
     return (
@@ -29,7 +30,7 @@ function card() {
                     </div>
                 </Slide>
                 <Slide right duration={2000}>
-                    <img src={"Shoot-unscreen.gif"} alt="my-gif" className='w-[200px] h-[200px]' />
+                    <img src={"Shoot.gif"} alt="my-gif" className='w-[200px] h-[200px]' />
                 </Slide>
             </div>
             <div className='card--x flex flex-row justify-evenly'>

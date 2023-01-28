@@ -47,6 +47,7 @@ function eventdetails1() {
         </div>
         </div>
         
+            <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹400</h1><br/><br/><br/>
         
         <div className="flex justify-center relative">
             <a  href='https://forms.gle/9jxnVmAQ2QxBLx176' rel="noopener noreferrer " target={"_blank"} className="underline font-mono flex p-[10px] pl-[50px] pr-[50px] mx-10 reg-btn font-semibold text-white">Register</a>

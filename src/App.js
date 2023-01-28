@@ -1,11 +1,11 @@
 import './App.css';
-// import Cards from './components/cards';
+import Card from './components/cards';
 import DashBoard from './components/DashBoard';
 import Events from './components/Events';
 import NavBar from './components/NavBar';
 import Hero from './components/hero';
 import Header from './components/header';
-import Card from './components/card';
+import About from './components/card';
 import EventPage from './components/EventPage';
 import Eventdetails from './components/eventdetails'
 import Eventdetails2 from './components/eventdetails2'
@@ -20,13 +20,16 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import ComboOffer from './components/combo_offer';
-// import Footer from './components/footer';
+
+import Footer from './components/footer';
+import DevNav from './components/devNav';
+import Developer from './components/developer';
+import History from './components/history';
 
 
 function App() {
   return (
-    <div style={{marginBottom:"50px"}}>
+    <div >
       <Router>
         <Routes>
           <Route path="/" element={
@@ -34,11 +37,11 @@ function App() {
               <Header />
               <NavBar />
               <DashBoard />
-              <ComboOffer/>
               <Events />
+              <About />
+              <Footer/>
               <Card />
-              {/* <Footer/> */}
-              {/* <Cards /> */}
+              <DevNav/>
             </div>
           } />
           <Route path="/about" element={
@@ -46,12 +49,19 @@ function App() {
               <Header />
               <NavBar />
               <Hero />
+              <Card />
+              <Footer/>
+              <DevNav/>
             </div>
           } />
           <Route path="/previous_year_events" element={
             <div >
               <Header />
               <NavBar />
+              <Card />
+              <History />
+              <Footer/>
+              <DevNav/>
             </div>
           } />
           <Route path="/events" element={
@@ -59,49 +69,70 @@ function App() {
               <Header />
               <NavBar />
               <EventPage />
-              
+              <Card />
+              <Footer/>
+              <DevNav/>
+            </>
+          } />
+          <Route path="/developer" element={
+            <>
+              <Header />
+              <NavBar />
+              <Developer />
             </>
           } />
            <Route path="/eventdetails1" element={
-            <>
+             <>
               <Header />
               <NavBar />
               <Eventdetails />
+              <Card />
+              <DevNav/>
             </>
           } />
            <Route path="/eventdetails2" element={
-            <>
+             <>
               <Header />
               <NavBar />
               <Eventdetails2 />
+              <Card />
+              <DevNav/>
             </>
           } />
            <Route path="/eventdetails3" element={
-            <>
+             <>
               <Header />
               <NavBar />
               <Eventdetails3 />
+              <Card />
+              <DevNav/>
             </>
           } />
            <Route path="/eventdetails4" element={
-            <>
+             <>
               <Header />
               <NavBar />
               <Eventdetails4 />
+             <Card />
+             <DevNav/>
             </>
           } />
            <Route path="/eventdetails5" element={
-            <>
+             <>
               <Header />
               <NavBar />
               <Eventdetails5 />
+             <Card />
+             <DevNav/>
             </>
           } />
            <Route path="/eventdetails6" element={
-            <>
+             <>
               <Header />
               <NavBar />
               <Eventdetails6 />
+              <Card />
+             <DevNav/>
             </>
           } />
         </Routes>

@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 import { Link } from "react-router-dom";
+import logo from "./../assets/club_logo.png";
+import keclogo from "./../assets/kec logo.png";
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
@@ -9,11 +11,13 @@ const NavBar = () => {
         setNav(!nav)
     }
     return (
-        <>
-            <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-2 relative">
+        <div className="flex justify-arround items-center flex-wrap h-42 relative">
+            <img className="ml-5 bg-white aspect-auto px-2" style={{width:"calc(100%*0.09)"}} src = {keclogo} ></img>
+            <div className="text-white flex justify-between items-center h-24 w-3/5 max-w-[1240px] mx-auto px-2 ">
+                
                 <h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus </h1>
-                    
-<ul className="hidden md:flex">
+                
+                <ul className="hidden md:flex">
                     <li className="p-4"><Link to="/">Home</Link></li>
                     <li className="p-4"><Link to="/events">Event</Link></li>
                     <li className="p-4"><Link to="/about">About</Link></li>
@@ -33,7 +37,8 @@ const NavBar = () => {
                     </ul>
                 </div>
             </div>
-        </>
+            <img className="mr-5" style={{width:"calc(100%*0.09)"}} src = {logo} ></img>
+        </div>
     )
 }
 

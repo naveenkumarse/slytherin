@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: MagicSchool;
-    src: url('./assets/magic-school.one.ttf');
-}
-@font-face {
     font-family: LegendaryRunes;
     src: url('./assets/legendary-runes-free-trial.regular.ttf');
 }
@@ -16,7 +12,6 @@ body{
 }
 
 body > * {
-    /* font-family: MagicSchool; */
     font-family: LegendaryRunes;
     letter-spacing: .25rem;
 }
