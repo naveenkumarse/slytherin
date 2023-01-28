@@ -22,6 +22,7 @@ import {
   Route,
   HashRouter
 } from "react-router-dom";
+import PrevEvents from './components/previousEvents';
 
 
 
@@ -54,8 +55,9 @@ function App() {
             <div >
               <Header />
               <NavBar />
-              <Card />
+            
               <History />
+              <PrevEvents/>
               <Footer/>
             </div>
           } />

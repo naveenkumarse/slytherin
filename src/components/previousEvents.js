@@ -1,13 +1,16 @@
 import React from "react";
-
-const prevEvents = () => {
+import Prevcard from "./prevcard";
+import {data} from './dataprevious';
+const PrevEvents = () => {
     return (
-        <>
-            <div className="text-white relative"  >
-                
-            </div>
-        </>
+        <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 relative ">
+            
+                {data.map((d) =>
+                     (<Prevcard key={d.id} name={d.name} description={d.description} />)
+                ) }
+          
+        </div>
     )
 }
 
-export default prevEvents;
+export default PrevEvents;
