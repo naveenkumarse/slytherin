@@ -1,9 +1,10 @@
 import React from 'react'
-import '../styles/eventdetails.css'
+import './eventdetails.css'
 import Fade from 'react-reveal/Fade';
 import './eventdetails.css'
 
-function eventdetails2() {
+
+const Eventdetails2=()=>{
   return (
     < >
         <Fade bottom duration={2000}>
@@ -48,4 +49,4 @@ function eventdetails2() {
   )
 }
 
-export default eventdetails2
+export default Eventdetails2

@@ -1,9 +1,9 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import Typed from 'react-typed';
-import '../styles/About.css';
+import '../../styles/About.css';
 
-function History() {
+const History = ()=> {
     return (
         <div className='fadeintext' style={{marginTop:"100px"}}>
             <Zoom>

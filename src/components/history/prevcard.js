@@ -1,5 +1,5 @@
 import React from "react";
-import Poster from '../assets/Expelliarmus.jpg';
+import Poster from '../../assets/Expelliarmus.jpg';
 
 const Prevcard = (props) => {
    const  {key,description,name }= props; 
