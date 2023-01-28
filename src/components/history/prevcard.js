@@ -8,7 +8,7 @@ const Prevcard = (props) => {
             <div class="py-4" key={key}>
                 <card class="w-full flex flex-col">
                     <div class="relative">
-                        <img src={Poster} class="w-96 h-auto" />
+                        <img src={Poster} alt="poster of event" class="w-96 h-auto" />
                     </div>
                     <div class="flex flex-row mt-2 gap-2">
                         <div clas="flex flex-col">
