@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/eventdetails.css'
 import Fade from 'react-reveal/Fade';
+import './eventdetails.css'
 
 function eventdetails6() {
   return (
@@ -12,7 +13,7 @@ function eventdetails6() {
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>OVERVIEW</h1><br></br>
         <div className='flex flex-col justify-center align-center items-center'>
             <h1 className='text-2xl text-[#00df9a]'>ROBOT SPECIFICATIONS</h1>
-            <div className=' w-[800px] p-[30px] unordered-list m-auto'>
+            <div className=' p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
             <li>	Fanuc ER – 4iA <br/></li>
             <li>	ABB IRB 1410  <br/></li>
@@ -22,7 +23,7 @@ function eventdetails6() {
         </div><br></br>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">Lecture Details,</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
             
 <li>  A brief Lecture on Industrial Robots and its applications</li>	

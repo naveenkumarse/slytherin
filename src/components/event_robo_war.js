@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/eventdetails.css'
 import Fade from 'react-reveal/Fade';
+import './eventdetails.css'
 
 function eventdetails2() {
   return (
@@ -10,7 +11,7 @@ function eventdetails2() {
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>ROBO WAR</h1><br></br>
         <div className='flex flex-col justify-center align-center items-center'>
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
-            <div className=' w-[800px] p-[30px] unordered-list m-auto'>
+            <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[#00df9a] md:list-disc marker:text-[24px] list-disc pl-5 space-y-3'> 
               <li> There will be no restrictions on the dimensions of the bot.<br/></li>
               <li> The weight of the machine should not exceed 15 Kgs (33.07 Lbs.), which includes the weight of any pneumatic source/tank. All pneumatic tanks/source and batteries should be on board. Only the weight of the remote controller will not be counted.<br/></li>
@@ -23,7 +24,7 @@ function eventdetails2() {
         </div><br></br>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">TEAM SPECIFICATIONS</h1>
-            <div className='w-[800px] p-[30px] unordered-list m-auto'>
+            <div className=' p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
               
             <li>  Any team can participate in International Robowars, Techfest. A team may consist of a maximum of 5 participants. These participants can be from the same or different institutes.<br/></li>
