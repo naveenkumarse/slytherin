@@ -24,7 +24,6 @@ const Eventdetails4=() => {
             <li>	The bot which starts the START tile and reaches the FINISH tile by following the black lines in the shortest time will be nominated as the winner.<br/></li>
             <li>	Violating any of the given rules will end in deduction of points for the corresponding team <br/></li>
             <li>	The decision of the coordinates will be final and binding upon all participants <br/></li>
-
             </ul>
             </div>
         </div><br></br>
