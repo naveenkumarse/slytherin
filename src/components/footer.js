@@ -32,12 +32,12 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mt-10'>
-                <p className='py-4 font-bold text-1xl text-white'>Social Media Partners</p>
-                <a href='https://instagram.com/kec_appatakkars?igshid=YmMyMTA2M2Y=' rel="noopener noreferrer " target={"_blank"} >
-                    <img src={appatakars}  className="w-[80px] h-[80px]" alt="appatakars"></img>        
-                </a>          
+                <p className='py-4 font-bold text-1xl text-white'>Meme Supporters</p>
                 <a href='https://instagram.com/being_kecian?igshid=YmMyMTA2M2Y=' rel="noopener noreferrer " target={"_blank"} >
                 <img src={beingkecinan} className="w-[80px] h-[80px]" alt="beingkecinan"></img>        
+                </a>          
+                <a href='https://instagram.com/kec_appatakkars?igshid=YmMyMTA2M2Y=' rel="noopener noreferrer " target={"_blank"} >
+                    <img src={appatakars}  className="w-[80px] h-[80px]" alt="appatakars"></img>        
                 </a>          
             </div>            
             

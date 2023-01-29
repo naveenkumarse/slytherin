@@ -1,5 +1,4 @@
 import React from "react";
-import Poster2 from './../../assets/Events_previous/Picture2.jpg';
 
 const Prevcard = (props) => {
    const  {key,description,name,img}= props; 

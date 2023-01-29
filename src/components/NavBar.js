@@ -17,7 +17,7 @@ const NavBar = () => {
             </div>
             <div className="text-white flex justify-between items-center h-24 w-3/5 max-w-[1240px] ">
                 
-                <h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus </h1>
+                <h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus 2K23 </h1>
                 
                 <ul className="hidden md:flex">
                     <li className="p-4"><Link to="/">Home</Link></li>
