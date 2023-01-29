@@ -11,15 +11,14 @@ const Eventdetails1=()=> {
         <h1 className='text-4xl text-center text-[#00df9a] mt-[30px] font-bold'>MAZE SOLVER</h1><br></br>
         <div className='flex flex-col justify-center align-center items-center'>
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
-            <div className=' p-[30px] unordered-list m-auto'>
-            <ul className='text-[14px] font-mono marker:text-[#00df9a] marker:text-[24px] list-disc pl-5 space-y-3'> 
-              
+            <div className='p-[30px] unordered-list m-auto '>
+            <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
               <li> 	Maximum number of members in a team is 4.<br/></li>
               <li> 	Only one autonomous bot allowed per team.<br/></li>
               <li> 	When the event starts, only two members per team should be present near the track area.<br/></li>
               <li> 	The bot should be able to maneuver without any human interactions.<br/></li>
               <li> 	The objective of the competition would be for the robot to track the line and reach the final destination in the shortest time.<br/></li>
-              <li> 	For your reference kindly go through this video: <a className='text-[#00df9a] underline' href='https://www.youtube.com/watch?v=mJV-KDqHgDQ'  rel="noopener noreferrer" target={"_blank"}>https://www.youtube.com/watch?v=mJV-KDqHgDQ</a> <br/></li>
+              <li> 	For your reference kindly go through this video:<br/><a className='text-[#00df9a] underline' href='https://www.youtube.com/watch?v=mJV-KDqHgDQ'  rel="noopener noreferrer" target={"_blank"}>video</a><br/></li>
               <li> 	The track will not be the same it's just a reference <br/></li>
               <li> 	No servicing or repairing of any kind are allowed during the time allocated to each entry. If there is any need for the replacement of exhausted battery supplies, permission must be sought from the juries to perform the act. The decision to allow the act is left at the discretion of the juries.<br/></li>
               <li> 	Before starting the competition, the participants are allowed to inspect the layout of the maze and under any circumstances the participants are not allowed to touch the track and do any  positional adjustments to the track. This should be performed only by the event co-ordinators.<br/></li>
@@ -27,8 +26,6 @@ const Eventdetails1=()=> {
               <li> 	Violating any of the given rules will result in the disqualification of the corresponding team.<br/></li>
               <li> 	The decision of the co-ordinator will be final and binding upon all participants.<br/></li>
               <li> 	Further rules, arena specifications and event details will be intimated later.<br/></li>
-
-            
             </ul>
             </div>
         </div><br></br>
@@ -43,6 +40,18 @@ const Eventdetails1=()=> {
               <li>  Team members should bring their components and power supplies for their bots, organizers won’t be providing any components<br/></li>
     
             </ul>
+            </div>
+            
+        </div>
+        <div  className='flex flex-col justify-center align-center items-center '>
+            <h1 className="text-2xl text-center text-[#00df9a]">STUDENT COORDINATORS </h1>
+            <div className='p-[30px] unordered-list m-auto'>
+            <ol className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] pl-5 space-y-3'>
+            <li> GOWTHAM SUNDAR M - 80120 20363	<br/></li>
+            <li> MOHAMMED ARSATH M - 82207 99368	<br/></li>
+            <li> RAJARISHI B - 70107 00640	<br/></li>
+            
+            </ol>
             </div>
             
         </div>

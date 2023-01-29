@@ -16,7 +16,7 @@ const Datas=[
         coordinator_details:[
             "JEGANESAN V S - 95432 77800",
             "INDIRAN P - 73970 14133",
-            "RAJARISHI B - 70107 00640"
+            "RAJARISHI B - 70107 00640",
         ]
 
     },
@@ -127,7 +127,7 @@ const Datas=[
         coordinator_details:[
             "SUDHAKARAN S - 86673 35602",
             "PONSIVANESAN E D - 93847 51468",
-            "SIVA K - 63695 77791"
+            "SIVA K - 63695 77791",
         ]
     },
     {
@@ -156,7 +156,7 @@ const Datas=[
         coordinator_details:[
             "GOWTHAM SUNDAR M - 80120 20363",
             "MOHAMMED ARSATH M - 82207 99368",
-            "RAJARISHI B - 70107 00640"
+            "RAJARISHI B - 70107 00640",
         ]
             
         
@@ -175,7 +175,7 @@ const Datas=[
         ],
         coordinator_details:[
             "DHILIP VIJAYA RAM A - 63857 70036",
-            "MOHIT SARAVANAN S - 90957 88945"
+            "MOHIT SARAVANAN S - 90957 88945",
         ]
     }
 ]

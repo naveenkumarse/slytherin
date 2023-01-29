@@ -34,7 +34,17 @@ const Eventdetails6=() =>{
     
             </ul>
             </div>
+            <div  className='flex flex-col justify-center align-center items-center '>
+            <h1 className="text-2xl text-center text-[#00df9a]">STUDENT COORDINATORS </h1>
+            <div className='p-[30px] unordered-list m-auto'>
+            <ol className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] pl-5 space-y-3'>
+            <li> DHILIP VIJAYA RAM A - 63857 70036	<br/></li>
+            <li> MOHIT SARAVANAN S - 90957 88945	<br/></li>
             
+            </ol>
+            </div>
+            
+        </div>
         </div>
         </div>
         <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹300</h1><br/><br/><br/>
