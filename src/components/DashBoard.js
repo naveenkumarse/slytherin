@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Typed from 'react-typed';
+
+
 import Spinner from './spinner';
 
 const DashBoard = () => {
@@ -30,6 +32,7 @@ const DashBoard = () => {
                     </div>
                 </div>
             </div>
+           
         </>
     )
 }
