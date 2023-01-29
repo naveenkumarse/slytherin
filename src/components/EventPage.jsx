@@ -8,7 +8,7 @@ import train from "./../assets/icons/training.png";
 import tyre from "./../assets/icons/tyre.png";
 import { Link } from "react-router-dom";
 import Zoom from 'react-reveal/Zoom';
-import Card from './cards' ;
+import Card from './marquee' ;
 
 import poster from './../assets/Expelliarmus.jpg';
 
