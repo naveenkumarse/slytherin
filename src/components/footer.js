@@ -11,7 +11,7 @@ import MapofMTS from './googlemap/googlemap';
 const Footer = () => {
     return (
         <>
-        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-4 gap-8 text-gray-300 relative'>
+        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-4 gap-8 text-gray-300 relative '>
             <div>
                 <h1 className='w-full text-4xl font-bold text-[#00df9a]'>Contact Us</h1>
                 <p className='py-4 font-bold  text-1xl text-white'>Staff Co ordinator</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                     <img src={appatakars}  className="w-[80px] h-[80px]" alt="appatakars"></img>        
                 </a>          
             </div>            
-            <div className='mt-20'>            
+            <div className='mt-16'>            
             <MapofMTS />
             </div>            
         </div>
