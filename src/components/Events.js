@@ -9,9 +9,12 @@ const Events = () => {
                 <div className="text-white flex flex-col justify-center">
                     <p className="text-[#00df9a] font-mono font-bold">Proudly presented by</p>
                     <h1 className="md:text-4xl sm:text-3xl text-2xl  font-bold py-2">Robotics club of KEC</h1>
+                    <br/>
+                    <q className="font-mono">FOR THE PEOPLE BY THE PEOPLE  OF THE PEOPLE</q>
+                    <br/>
                     <p className="font-mono">
-                        National level event with cash prizes.
-                        Dont wait register as soon as possible.
+                        National level event with exited cash prizes.
+                        Don't wait register as soon as possible. ⚠️
                     </p>
                 </div>
             </div>

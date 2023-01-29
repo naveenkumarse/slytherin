@@ -17,7 +17,7 @@ const DashBoard = () => {
                         <div className="">
 
                             <Typed className="md:text-5xl font-mono sm:text-4xl text-xl font-bold" 
-                                strings={['Online registration open','Cash Price upto ₹30K']}
+                                strings={['Online registration open','Cash Prize upto ₹30K']}
                                 typeSpeed={90}
                                 backspeed={70}
                                 loop
