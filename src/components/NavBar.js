@@ -12,10 +12,10 @@ const NavBar = () => {
     }
     return (
         <div className="flex justify-arround items-center flex-wrap h-42 relative">
-            <img className="ml-5 bg-white aspect-auto px-2" style={{width:"calc(100%*0.09)"}} src = {keclogo} ></img>
+            <img className="ml-5  aspect-auto px-2" style={{width:"calc(100%*0.09)"}} src = {keclogo} ></img>
             <div className="text-white flex justify-between items-center h-24 w-3/5 max-w-[1240px] mx-auto px-2 ">
                 
-                <h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus </h1>
+                <h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus 2K23 </h1>
                 
                 <ul className="hidden md:flex">
                     <li className="p-4"><Link to="/">Home</Link></li>
