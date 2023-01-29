@@ -12,9 +12,7 @@ const NavBar = () => {
     }
     return (
         <div className="flex justify-between items-center flex-wrap h-42 relative">
-            <div className="ml-5 w-32 h-32 bg-white aspect-auto rounded-full ">
-            <img className="w-28 h-28 object-contain m-auto mt-1" src = {keclogo} ></img>
-            </div>
+            <img className=" ml-5 bg-white aspect-auto px-2" style={{width:"calc(100%*0.09)"}} src = {keclogo} ></img>
             <div className="text-white flex justify-between items-center h-24 w-3/5 max-w-[1240px] ">
                 
                 <Link to="/"><h1 className="w-full text-3xl font-bold text-[#00df9a] "> Expelliarmus 2K23 </h1></Link>
