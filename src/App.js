@@ -16,6 +16,7 @@ import Eventdetails4 from './components/events/event_line_follower';
 import Eventdetails5 from './components/events/event_robo_race';
 import Eventdetails6 from './components/events/event_workshop';
 import OfficeBearerList from './components/about/OfficeBearerList';
+import Cards from './components/cards';
 import {
   Routes,
   Route,
@@ -37,6 +38,7 @@ function App() {
               <Events />
               <About />
               <Footer />
+              <Cards />
             </div>
           } />
           <Route path="/about" element={
@@ -46,6 +48,7 @@ function App() {
               <Hero />
               <OfficeBearerList/>
               <Footer />
+              <Cards />
             </div>
           } />
           <Route path="/previous_year_events" element={
@@ -55,6 +58,7 @@ function App() {
               <History />
               <PrevEvents />
               <Footer />
+              <Cards />
             </div>
           } />
           <Route path="/events" element={
@@ -63,6 +67,7 @@ function App() {
               <NavBar />
               <EventPage />
               <Footer />
+              <Cards />
             </>
           } />
           <Route path="/eventdetails1" element={
@@ -70,6 +75,7 @@ function App() {
               <Header />
               <NavBar />
               <Eventdetails1 />
+            <Cards />
             </>
           } />
           <Route path="/eventdetails2" element={
@@ -77,6 +83,7 @@ function App() {
               <Header />
               <NavBar />
               <Eventdetails2 />
+            <Cards />
             </>
           } />
           <Route path="/eventdetails3" element={
@@ -84,6 +91,7 @@ function App() {
               <Header />
               <NavBar />
               <Eventdetails3 />
+            <Cards />
             </>
           } />
           <Route path="/eventdetails4" element={
@@ -91,6 +99,7 @@ function App() {
               <Header />
               <NavBar />
               <Eventdetails4 />
+              <Cards />
             </>
           } />
           <Route path="/eventdetails5" element={
@@ -98,6 +107,7 @@ function App() {
               <Header />
               <NavBar />
               <Eventdetails5 />
+              <Cards />
             </>
           } />
           <Route path="/eventdetails6" element={
@@ -105,6 +115,7 @@ function App() {
               <Header />
               <NavBar />
               <Eventdetails6 />
+              <Cards />
             </>
           } />
         </Routes>

@@ -35,7 +35,18 @@ const Eventdetails2=()=>{
 <br/>
             </ul>
             </div>
+            <div  className='flex flex-col justify-center align-center items-center '>
+            <h1 className="text-2xl text-center text-[#00df9a]">STUDENT COORDINATORS </h1>
+            <div className='p-[30px] unordered-list m-auto'>
+            <ol className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] pl-5 space-y-3'>
+            <li> GHUNAL S - 86084 79203	<br/></li>
+            <li> KABILAN - 82482 15399	<br/></li>
+            <li> SANTHOSH C - 95385 23011	<br/></li>
             
+            </ol>
+            </div>
+            
+        </div>
         </div>
         </div>
         <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹1500</h1><br/><br/><br/>

@@ -86,7 +86,18 @@ const Eventdetails3 = () => {
 
               </ul>
             </div>
-
+            <div  className='flex flex-col justify-center align-center items-center '>
+            <h1 className="text-2xl text-center text-[#00df9a]">STUDENT COORDINATORS </h1>
+            <div className='p-[30px] unordered-list m-auto'>
+            <ol className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] pl-5 space-y-3'>
+            <li> THAHA ABDUL HAMEED A - 83441 21853	<br/></li>
+            <li> SIVANEZHIL KURCIL V - 93446 99400	<br/></li>
+            <li> SRINATH M - 84899 31828	<br/></li>
+            
+            </ol>
+            </div>
+            
+        </div>
           </div>
         </div>
         <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹600</h1><br /><br /><br />

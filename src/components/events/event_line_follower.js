@@ -42,6 +42,18 @@ const Eventdetails4=() => {
             </div>
             
         </div>
+        <div  className='flex flex-col justify-center align-center items-center '>
+            <h1 className="text-2xl text-center text-[#00df9a]">STUDENT COORDINATORS </h1>
+            <div className='p-[30px] unordered-list m-auto'>
+            <ol className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] pl-5 space-y-3'>
+            <li> SUDHAKARAN S - 86673 35602	<br/></li>
+            <li> PONSIVANESAN E D - 93847 51468	<br/></li>
+            <li> SIVA K - 63695 77791	<br/></li>
+            
+            </ol>
+            </div>
+            
+        </div>
         </div>
         <h1 className="text-2xl text-center text-[#00df9a]">Registration Fees ₹400</h1><br/><br/><br/>
 
