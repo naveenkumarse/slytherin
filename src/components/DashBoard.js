@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Typed from 'react-typed';
-
-
 import Spinner from './spinner';
 
 const DashBoard = () => {
@@ -26,9 +24,9 @@ const DashBoard = () => {
                                 loop
                             />
                         <p className="md:text-2xl text-xl font-bold text-gray-500 pt-8">March 18,2023</p>
-                        <div className="register_but">
+                        <div className="register_but object-contain">
                         <Link to="/events">
-                        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Register soon </button>
+                        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Register soon</button>
                         </Link>
                         </div>
                         
