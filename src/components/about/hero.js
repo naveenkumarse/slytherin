@@ -26,11 +26,7 @@ function hero() {
                     </div>
                 </div>
             </Zoom>
-
         </div>
-        
-
-
     )
 }
 
