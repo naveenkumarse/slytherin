@@ -1,7 +1,7 @@
 import React from "react";
 
 const Prevcard = (props) => {
-   const  {key,description,name,img}= props; 
+   const  {key,description,name,img,title}= props; 
     return (
         <>
             <div class="py-4" key={key}>
@@ -11,9 +11,9 @@ const Prevcard = (props) => {
                     </div>
                     <div class="flex flex-row mt-2 gap-2">
                         <div clas="flex flex-col">
-                            <p class="text-gray-100 text-sm font-semibold">Learn CSS Box Model in 8 Minutes</p>
+                            <p class="text-[#00df9a] text-sm font-semibold">{title}</p>
                             <p class="text-gray-400 text-xs mt-2 hover:text-gray-100" href="#">{name} </p>
-                            <p class="text-gray-400 text-xs mt-1">{description}</p>
+                            <p class="text-white text-xs mt-1">{description}</p>
                         </div>
                     </div>
                 </card>

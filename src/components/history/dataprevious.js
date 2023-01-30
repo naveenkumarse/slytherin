@@ -10,64 +10,76 @@ import Img9 from '../../assets/Events_previous/Picture10.jpg';
 import Img10 from '../../assets/Events_previous/Picture11.png';
 export const data = [
     {
-        id:1,
-        img:Img1,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 1,
+        img: Img1,
+        title: "Hall of fame ",
+        name: '2022-23',
+        description: 'RBC is one of the well established club in KEC with 2 faculty co-ordinators and 34 office bearers'
     },
     {
-        id:2,
-        img:Img2,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 10,
+        img: Img10,
+        title: 'Tracker workshop',
+        name: 'Since 2012',
+        description: 'It is the technical event where freshman and sophomore year students will learn to build various bots like Line Follower, Maze Solver, Obstacle Avoider etc with their own take away kits'
     },
     {
-        id:3,
-        img:Img3,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 2,
+        img: Img2,
+        title: "Incendio Robotics",
+        name: '2012-2017',
+        description: 'PCB design and fabrication workshop conducted from 2012 with about 100 partcipants'
+    },
+
+    {
+        id: 5,
+        img: Img5,
+        title: 'Robo Soccer',
+        name: 'Since 2014',
+        description: 'It is one of the exciting events in which soccer techie fans will fight to score with the help of their bots.'
     },
     {
-        id:4,
-        img:Img4,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 6,
+        img: Img6,
+        title: 'Robo War',
+        name: 'Since 2014',
+        description: 'It is one of the signature event of Expelliarmus and KEC for inter-college students which their bots fight for their owners to gain victory.'
     },
     {
-        id:5,
-        img:Img5,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 7,
+        img: Img7,
+        title: 'Line Follower Bot',
+        name: 'Since 2014',
+        description: 'It is one of the famous events in which the bots without the help of their owner, need to follow the lines from beginning to end to capture the winning flag'
     },
     {
-        id:6,
-        img:Img6,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 8,
+        img: Img8,
+        title: 'Maze Solver Bot',
+        name: 'Since 2014',
+        description: "It is one of the common event in which many participant's bot will compete against time to win the twisting maze."
+    },
+
+    {
+        id: 3,
+        img: Img3,
+        title: "Tech Minds",
+        name: '2022',
+        description: 'It is a technical robotics quiz competition conducted for about 150 students'
     },
     {
-        id:7,
-        img:Img7,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 4,
+        img: Img4,
+        title: 'Makers workshop',
+        name: '2022',
+        description: 'It is a technical workshop which about 30 students learnt about designing of drones using solidworks'
     },
     {
-        id:8,
-        img:Img8,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
-    },
-    {
-        id:10,
-        img:Img10,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
-    },
-    {
-        id:9,
-        img:Img9,
-        name: 'The club of kec ',
-        description: 'This is the event of kec'
+        id: 9,
+        img: Img9,
+        title: 'Other Events',
+        name: 'Since 2011',
+        description: 'Apart from these events, RBC has conducted many technical hands-on workshops and famous personalities guest lectures for the knowledge development of students.'
     },
 
 

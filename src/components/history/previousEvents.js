@@ -8,7 +8,7 @@ const PrevEvents = () => {
         
         <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 relative ">
             {data.map((d) =>
-                (<Prevcard key={d.id} name={d.name} description={d.description} img={d.img}/>)
+                (<Prevcard key={d.id} name={d.name} description={d.description} title={d.title} img={d.img}/>)
             )}
         </div>
     )
