@@ -14,4 +14,6 @@
   .unordered-list{
     max-width: 800px !important;
     flex-wrap: wrap !important;
+    margin-left: 10px;
+    margin-right: 10px;
 }

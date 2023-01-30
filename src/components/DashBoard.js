@@ -26,9 +26,12 @@ const DashBoard = () => {
                                 loop
                             />
                         <p className="md:text-2xl text-xl font-bold text-gray-500 pt-8">March 18,2023</p>
+                        <div className="register_but">
                         <Link to="/events">
                         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Register soon </button>
                         </Link>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

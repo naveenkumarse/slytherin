@@ -6,7 +6,7 @@
   100% { opacity: 1; }
 }
 .title{
-  position:absolute;
+  position:relative;
   display: flex;
   flex-direction:column ;
   justify-content: center;
@@ -39,6 +39,9 @@
   color: white;
   overflow-x: hidden;
   line-height: 2rem;
+}
+.card--x--odd{
+  position: relative;
 }
 @media only screen and (max-width: 600px) {
   .about-main {
@@ -93,9 +96,9 @@
     justify-content: center !important;
     text-align: center !important;
     align-items: center !important;
-    font-size: 14px !important;
+    font-size: 14px !important; 
 
-  }
+   }
   .description--odd{
     width: 100% !important;
     text-align: center !important;
