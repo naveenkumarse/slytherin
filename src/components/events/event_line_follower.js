@@ -14,7 +14,7 @@ const Eventdetails4=() => {
             <div className='p-[30px] unordered-list m-auto '>
             <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3 '> 
             <li>	Maximum Number of members in a team is 4.<br/></li>
-            <li>	ID Card of each member must be provided at the time of registration.<br/></li>
+            <li>	Each member must produce a valid ID card of his/her respective institution.<br /></li>
             <li>	Only one autonomous bot per team is allowed.<br/></li>
             <li>	At the start of the task, the bot will be placed at the starting point. Only two members of a team is allowed to be near the game field while starting the bot.<br/></li>
             <li>	The starting procedure of the bot should be simple and should not involve giving any manual force or impulse in any direction.<br/></li>
