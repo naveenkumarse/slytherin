@@ -11,13 +11,15 @@ import MapofMTS from './googlemap/googlemap';
 const Footer = () => {
     return (
         <>
-        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-4 gap-8 text-gray-300 relative '>
-            <div>
+        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-5 gap-5 text-gray-300 relative '>
+            <div className='col-span-2'>
                 <h1 className='w-full text-4xl font-bold text-[#00df9a]'>Contact Us</h1>
                 <p className='py-4 font-bold  text-1xl text-white'>Staff Co ordinator</p>
-                <p className='font-mono' >Mr.Thangarasu.S.K - 9942783338</p>
+                <p className='font-mono' >Mr.Thangarasu.S.K - 9942783338 </p>
+                <p className='font-mono' >Mr.ArunKumar.P.M - 9750135213 </p>
                 <p className='py-4 font-bold text-1xl text-white'>Student Co ordinator</p>
-                <p className='font-mono'>Selva Vignesh - 6380082151</p>   
+                <p className='font-mono'>Mr.Selva Vignesh.K - 6380082151</p>   
+                <p className='font-mono'>Mr.Vigneswara - 9786521314 </p>   
             </div>
             <div className='font-mono mt-12'>
                 <div>
