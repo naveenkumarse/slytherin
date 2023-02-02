@@ -14,7 +14,7 @@ const Eventdetails1=()=> {
             <div className='p-[30px] unordered-list m-auto '>
             <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
               <li> 	Maximum number of members in a team is 4.<br/></li>
-              <li>	ID Card of each member must be provided at the time of registration.<br/></li>
+              <li>	Each member must produce a valid ID card of his/her respective institution.<br /></li>
               <li> 	Only one autonomous bot allowed per team.<br/></li>
               <li> 	When the event starts, only two members per team should be present near the track area.<br/></li>
               <li> 	The bot should be able to maneuver without any human interactions.<br/></li>
@@ -34,9 +34,9 @@ const Eventdetails1=()=> {
             <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] list-disc pl-5 space-y-3'>
               
-              <li>  Using greater voltage than 12V is prohibited<br/></li>
-              <li>  Use IR sensors to detect the line and follow them<br/></li>
-              <li>  Bot can have microcontroller or any ic gates for automatic movement and should not be controlled manually<br/></li>
+              <li>  Using greater voltage than 12V is prohibited.<br/></li>
+              <li>  Use IR sensors to detect the line and follow them.<br/></li>
+              <li>  Bot can have microcontroller or any ic gates for automatic movement and should not be controlled manually.<br/></li>
               <li>	Participating teams should bring their own requirements for entire competition.<br/></li>
 
     

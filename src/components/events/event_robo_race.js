@@ -14,10 +14,12 @@ const Eventdetails5=() => {
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
             <div className=' p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
-            <li>	A team should consist of 4 members <br/></li>
-            <li>	During the rounds, only two members of a team are allowed to enter the arena. However, the team can swap their members in different rounds <br/></li>
+            <li>	A team should consist of 4 members.<br/></li>
+            <li>	Each member must produce a valid ID card of his/her respective institution.<br /></li>
+            <li>  Students from different institutions can form a team. <br/></li>
+            <li>	During the rounds, only two members of a team are allowed to enter the arena. However, the team can swap their members in different rounds.<br/></li>
             <li>	If the bot is taken out of the race any repair, then the time will be stopped and bot have to start the race from the position. <br/></li>
-            <li>	The decision of the coordinator will be final and binding upon all participants <br/></li>
+            <li>	The decision of the coordinator will be final and binding upon all participants.<br/></li>
 
             </ul>
             </div>
@@ -26,15 +28,12 @@ const Eventdetails5=() => {
             <h1 className="text-2xl text-center text-[#00df9a]">BOT SPECIFICATIONS</h1>
             <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
-            <li>	Using greater voltages than 12V is forbidden <br/></li>
-            <li>	Bot dimension should be maximum of 25cm x 25cm x 25cm <br/></li>
-            <li>	Bot can have microcontroller or any IC Gates for automatic movement and should not be controlled manually <br/></li>
-            <li>	Team members should bring their components and power supply for their bots. Organizers won’t provide any components <br/></li>
-
-    
+            <li>	Using greater voltages than 12V is forbidden.<br/></li>
+            <li>	Bot dimension should be maximum of 30cm x 30cm x 30cm.<br/></li>
+            <li>  Max weight of bot is 8kgs.<br/></li>
+            <li>	Participating teams should bring their own requirements for entire competition.<br/></li>
             </ul>
             </div>
-            
         </div>
         <div  className='flex flex-col justify-center align-center items-center '>
             <h1 className="text-2xl text-center text-[#00df9a]">STUDENT COORDINATORS </h1>
