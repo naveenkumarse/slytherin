@@ -17,7 +17,7 @@ const DashBoard = () => {
                         <h1 className="md:text-7xl sm:text-6xl sm:mt-10 text-4xl font-bold md:py-6 text-[#00df9a]">Expelliarmus 2K23! </h1>
                         </div>
                             <Typed className="md:text-5xl font-mono sm:text-4xl text-xl font-bold" 
-                                strings={['8th Edition','E-Registration open','Cash Prize upto ₹30K']}
+                                strings={['8th Edition','Online-Registration open','Cash Prize upto ₹30K']}
                                 typeSpeed={90}
                                 backspeed={70}
                                 loop
