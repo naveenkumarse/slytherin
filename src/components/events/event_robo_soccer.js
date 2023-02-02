@@ -19,7 +19,7 @@ const Eventdetails3 = () => {
                 <li>	Each member must produce a valid ID card of his/her respective institution.<br /></li>
                 <li>	However, students from different institutions can form a team.<br /></li>
                 <li>	12V RPS (Regulated Power Supply) will be given by our team.<br/></li>
-                <li>  you can bring your batery maximum 12 V (0-5) Amps as if you wish.<br /></li>
+                <li>  you can bring your battery maximum 12 V (0-5) Amps as if you wish.<br /></li>
                 <li>  Bots battery capacity should be maximum of 24V.</li>
                 <li>	Match contains of two timeout of 20 seconds each.<br /></li>
                 <li>	The games are similar to normal football tournaments.<br /></li>
@@ -27,7 +27,7 @@ const Eventdetails3 = () => {
                 <li>	Each match lasts for 4 minutes.<br /></li>
                 <li>	Bots should not hold the ball for more than 10 secs, it leads to start the match from home position.<br /></li>
                 <li>	The match time may vary according to the juries.<br /></li>
-                <li>	The decision of the coordinates will be final.<br /></li>
+                <li>	The decision of the co-ordinators will be final.<br /></li>
               </ul>
             </div>
           </div><br></br>

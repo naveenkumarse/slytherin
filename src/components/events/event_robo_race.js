@@ -18,7 +18,7 @@ const Eventdetails5=() => {
             <li>	Each member must produce a valid ID card of his/her respective institution.<br /></li>
             <li>  Students from different institutions can form a team. <br/></li>
             <li>	During the rounds, only two members of a team are allowed to enter the arena. However, the team can swap their members in different rounds.<br/></li>
-            <li>	If the bot is taken out of the race any repair, then the time will be stopped and bot have to start the race from the position. <br/></li>
+            <li>	If the bot is taken out of the race for any repair, then the time will be stopped and bot have to start the race from the position. <br/></li>
             <li>	The decision of the coordinator will be final and binding upon all participants.<br/></li>
 
             </ul>

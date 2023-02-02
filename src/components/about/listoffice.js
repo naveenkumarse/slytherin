@@ -209,7 +209,7 @@ alt:"Office bearer"
 
      {
         id:22,
-        name:'Sarn T',
+        name:'Saran T',
         year:'B.E(Mechatronics Engg.)-Pre-Final Year',
         designation:'Documentation Team',
         img: Person22,

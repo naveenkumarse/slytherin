@@ -44,7 +44,7 @@ function EventPage() {
                         </Link>
                         <Link to="/eventdetails4">
                             <div id="4" className="shield">
-                                <h1 className="p-2">Line Follwer</h1>
+                                <h1 className="p-2">Line Follower</h1>
                                 <img src={path} alt="Line" />
                             </div>
                         </Link>

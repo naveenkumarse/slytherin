@@ -1,0 +1,8 @@
+@media (max-width: 575.98px) {
+    .footer {
+        flex-direction: column !important;
+    }
+    .social {
+        flex-direction: row !important;
+    }
+}

@@ -18,7 +18,7 @@ const Eventdetails1=()=> {
               <li> 	Only one autonomous bot allowed per team.<br/></li>
               <li> 	When the event starts, only two members per team should be present near the track area.<br/></li>
               <li> 	The bot should be able to maneuver without any human interactions.<br/></li>
-              <li> 	The objective of the competition would be for the robot to track the line and reach the final destination in the shortest time.<br/></li>
+              <li> 	The objective of the competition would be the robot to track the line and reach the final destination in the shortest time.<br/></li>
               <li> 	For your reference kindly go through this video:<br/><a className='text-[#00df9a] underline' href='https://www.youtube.com/watch?v=mJV-KDqHgDQ'  rel="noopener noreferrer" target={"_blank"}>video</a><br/></li>
               <li> 	The track will not be the same it's just a reference.<br/></li>
               <li> 	Before starting the competition, the participants are allowed to inspect the layout of the maze and under any circumstances the participants are not allowed to touch the track and do any  positional adjustments to the track. This should be performed only by the event co-ordinators.<br/></li>

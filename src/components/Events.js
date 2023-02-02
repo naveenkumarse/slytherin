@@ -1,5 +1,5 @@
 import React from "react";
-import Shoot from "../assets/Shoot.gif";
+import Shoot from "../assets/robotintro-dribble-unscreen.gif";
 const Events = () => {
     return (
         <div className="relative mt-10 lg:m-0">

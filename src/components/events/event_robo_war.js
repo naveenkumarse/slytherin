@@ -34,7 +34,7 @@ const Eventdetails2 = () => {
                 <li>Permissible weight: Maximum 15 kg.<br /></li>
                 <li>Maximum permissible volume. Fully unfolded robot must be within the limits of 40 cm X 55 cm (l x b). There is no maximum height for a robot (dictated by the design and weight constraints).<br /></li>
                 <li>Robot should be powered only by battery (For safety and security measures ). AC supply will be provided only for Charging.<br /></li>
-                <li>Robots can have weapons such as cutters, flippers, saws, lifting devices, spinning hammers etc. Use of liquid projectiles, any kind of inflmmable liquid, flame-based weapons, radio jamming devices, high power magnets or electromagnets, are not permitted.<br /></li>
+                <li>Robots can have weapons such as cutters, flippers, saws, lifting devices, spinning hammers etc. Use of liquid projectiles, any kind of inflammable liquid, flame-based weapons, radio jamming devices, high power magnets or electromagnets, are not permitted.<br /></li>
                 <li>Use of IC Engines is not allowed.<br /></li>
                 <br />
               </ul>
