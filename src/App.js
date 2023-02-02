@@ -72,49 +72,61 @@ function App() {
           } />
           <Route path="/eventdetails1" element={
             <>
-              <Header />
-              <NavBar />
-              <Eventdetails1 />
-            <Marquee />
+              <div className='mb-12'>
+                <Header />
+                <NavBar />
+                <Eventdetails1 />
+              </div>
+              <Marquee />
             </>
           } />
           <Route path="/eventdetails2" element={
             <>
+            <div className='mb-12'>
               <Header />
               <NavBar />
               <Eventdetails2 />
+              </div>
             <Marquee />
             </>
           } />
           <Route path="/eventdetails3" element={
             <>
+            <div className='mb-12'>
               <Header />
               <NavBar />
               <Eventdetails3 />
+              </div>
             <Marquee />
             </>
           } />
           <Route path="/eventdetails4" element={
             <>
+            <div className='mb-12'>
               <Header />
               <NavBar />
               <Eventdetails4 />
+              </div>
               <Marquee />
             </>
           } />
           <Route path="/eventdetails5" element={
             <>
+            <div className='mb-12'>
               <Header />
               <NavBar />
               <Eventdetails5 />
+              </div>
               <Marquee />
             </>
           } />
           <Route path="/eventdetails6" element={
             <>
+            <div className='mb-12'>
               <Header />
               <NavBar />
               <Eventdetails6 />
+              </div>
               <Marquee />
             </>
           } />

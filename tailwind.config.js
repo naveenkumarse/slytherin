@@ -1,10 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   mode: 'jit',
   theme: {
+    screens: {
+      'xs': '380px',
+      ...defaultTheme.screens,
+    },
     extend: {
       animation: {
         marquee: 'marquee 10s linear infinite',

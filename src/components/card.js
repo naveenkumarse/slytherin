@@ -5,8 +5,8 @@ import '../styles/About.css';
 
 function card() {
     return (
-        <Fade bottom duration={2000}>
-        <div className='pl-[40px] pr-[40px] complete--card'>
+        <Fade bottom duration={2000} className="">
+        <div className='pl-[40px] pr-[40px] xs:mt-24'>
             <div className='card--x flex flex-row justify-evenly'>
                 
                 {/* <Zoom> */}

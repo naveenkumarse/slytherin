@@ -2,7 +2,7 @@ import React from "react";
 import Shoot from "../assets/Shoot.gif";
 const Events = () => {
     return (
-        <div className="relative" style={{marginBottom : "200px"}}>
+        <div className="relative mt-10 lg:m-0">
             <div className="w-full px-4">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img className="w-[500px] mx-auto my-5" src={Shoot} alt="/" />
