@@ -13,17 +13,18 @@ const Eventdetails4=() => {
             <h1 className='text-2xl text-[#00df9a]'>GENERAL RULES</h1>
             <div className='p-[30px] unordered-list m-auto '>
             <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3 '> 
-            <li>	Maximum Number of members in a team is 4<br/></li>
-            <li>	Only one autonomous bot per team<br/></li>
+            <li>	Maximum Number of members in a team is 4.<br/></li>
+            <li>	ID Card of each member must be provided at the time of registration.<br/></li>
+            <li>	Only one autonomous bot per team is allowed.<br/></li>
             <li>	At the start of the task, the bot will be placed at the starting point. Only two members of a team is allowed to be near the game field while starting the bot.<br/></li>
-            <li>	The starting procedure of the bot should be simple and should not involve giving any manual force or impulse in any direction<br/></li>
-            <li>	Here two rounds, one trial round is allowed before the start of the first round<br/></li>
+            <li>	The starting procedure of the bot should be simple and should not involve giving any manual force or impulse in any direction.<br/></li>
+            <li>	Here two rounds, one trial round is allowed before the start of the first round.<br/></li>
             <li>	The teams that clear the first round will be allowed to enter the second round(as per the number of teams).<br/></li>
-            <li>	When the bot starts, no team member is allowed to touch the bot or enter the arena<br/></li>
-            <li>	The game will start only when organizers give the signal<br/></li>
+            <li>	When the bot starts, no team member is allowed to touch the bot or enter the arena.<br/></li>
+            <li>	The game will start only when organizers give the signal.<br/></li>
             <li>	The bot which starts the START tile and reaches the FINISH tile by following the black lines in the shortest time will be nominated as the winner.<br/></li>
-            <li>	Violating any of the given rules will end in deduction of points for the corresponding team <br/></li>
-            <li>	The decision of the coordinates will be final and binding upon all participants <br/></li>
+            <li>	Violating any of the given rules will end in deduction of points for the corresponding team.<br/></li>
+            <li>	The decision of the coordinates will be final and binding upon all participants.<br/></li>
             </ul>
             </div>
         </div><br></br>
@@ -31,10 +32,10 @@ const Eventdetails4=() => {
             <h1 className="text-2xl text-center text-[#00df9a]">BOT SPECIFICATIONS</h1>
             <div className='p-[30px] unordered-list m-auto'>
             <ul className='text-[14px] font-mono marker:text-[24px]  marker:text-[#00df9a] list-disc pl-5 space-y-3'>
-            <li>	Using greater voltages than 12V is forbidden <br/></li>
-            <li>	Bot dimension should be maximum of 25cm x 25cm x 25cm <br/></li>
-            <li>	Bot can have microcontroller or any IC Gates for automatic movement and should not be controlled manually <br/></li>
-            <li>	Team members should bring their components and power supply for their bots. Organizers won’t provide any components <br/></li>
+            <li>	Using greater voltages than 12V is forbidden.<br/></li>
+            <li>	Bot dimension should be maximum of 25cm x 25cm x 25cm.<br/></li>
+            <li>	Bot can have microcontroller or any IC Gates for automatic movement and should not be controlled manually.<br/></li>
+            <li>	Participating teams should bring their own requirements for entire competition.<br/></li>
 
     
             </ul>

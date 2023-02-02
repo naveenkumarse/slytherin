@@ -14,13 +14,13 @@ const Eventdetails1=()=> {
             <div className='p-[30px] unordered-list m-auto '>
             <ul className='text-[14px] marker:text-[24px] font-mono marker:text-[#00df9a] list-disc pl-5 space-y-3'> 
               <li> 	Maximum number of members in a team is 4.<br/></li>
+              <li>	ID Card of each member must be provided at the time of registration.<br/></li>
               <li> 	Only one autonomous bot allowed per team.<br/></li>
               <li> 	When the event starts, only two members per team should be present near the track area.<br/></li>
               <li> 	The bot should be able to maneuver without any human interactions.<br/></li>
               <li> 	The objective of the competition would be for the robot to track the line and reach the final destination in the shortest time.<br/></li>
               <li> 	For your reference kindly go through this video:<br/><a className='text-[#00df9a] underline' href='https://www.youtube.com/watch?v=mJV-KDqHgDQ'  rel="noopener noreferrer" target={"_blank"}>video</a><br/></li>
-              <li> 	The track will not be the same it's just a reference <br/></li>
-              <li> 	No servicing or repairing of any kind are allowed during the time allocated to each entry. If there is any need for the replacement of exhausted battery supplies, permission must be sought from the juries to perform the act. The decision to allow the act is left at the discretion of the juries.<br/></li>
+              <li> 	The track will not be the same it's just a reference.<br/></li>
               <li> 	Before starting the competition, the participants are allowed to inspect the layout of the maze and under any circumstances the participants are not allowed to touch the track and do any  positional adjustments to the track. This should be performed only by the event co-ordinators.<br/></li>
               <li> 	The game will start only when the signal is given by the organizer.<br/></li>
               <li> 	Violating any of the given rules will result in the disqualification of the corresponding team.<br/></li>
@@ -37,7 +37,8 @@ const Eventdetails1=()=> {
               <li>  Using greater voltage than 12V is prohibited<br/></li>
               <li>  Use IR sensors to detect the line and follow them<br/></li>
               <li>  Bot can have microcontroller or any ic gates for automatic movement and should not be controlled manually<br/></li>
-              <li>  Team members should bring their components and power supplies for their bots, organizers won’t be providing any components<br/></li>
+              <li>	Participating teams should bring their own requirements for entire competition.<br/></li>
+
     
             </ul>
             </div>

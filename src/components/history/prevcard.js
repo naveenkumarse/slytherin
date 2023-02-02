@@ -1,13 +1,13 @@
 import React from "react";
 
 const Prevcard = (props) => {
-   const  {key,description,name,img,title}= props; 
+    const { key, description, name, img, title } = props;
     return (
         <>
             <div class="py-4" key={key}>
                 <card class="w-full flex flex-col">
                     <div class="relative">
-                        <img src={img} alt="events" class="w-96 h-auto" />
+                        <img src={img} alt="events" class="w-96 max-h-56" />
                     </div>
                     <div class="flex flex-row mt-2 gap-2">
                         <div clas="flex flex-col">
