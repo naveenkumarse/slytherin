@@ -13,7 +13,7 @@ const Events = () => {
                         <q className="font-mono">FOR THE STUDENTS BY THE STUDENTS.</q>
                         <br />
                         <p className="font-mono">
-                            National level event with exited cash prizes.
+                            National level event with excited cash prizes.
                             Don't wait register as soon as possible. ⚠️
                         </p>
                     </div>
