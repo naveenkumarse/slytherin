@@ -17,6 +17,7 @@ import Eventdetails5 from './components/events/event_robo_race';
 import Eventdetails6 from './components/events/event_workshop';
 import OfficeBearerList from './components/about/OfficeBearerList';
 import Marquee from './components/marquee';
+import Developer from './components/developer';
 import {
   Routes,
   Route,
@@ -46,7 +47,7 @@ function App() {
               <Header />
               <NavBar />
               <Hero />
-              <OfficeBearerList/>
+              <OfficeBearerList />
               <Footer />
               <Marquee />
             </div>
@@ -82,53 +83,60 @@ function App() {
           } />
           <Route path="/eventdetails2" element={
             <>
-            <div className='mb-12'>
-              <Header />
-              <NavBar />
-              <Eventdetails2 />
+              <div className='mb-12'>
+                <Header />
+                <NavBar />
+                <Eventdetails2 />
               </div>
-            <Marquee />
+              <Marquee />
             </>
           } />
           <Route path="/eventdetails3" element={
             <>
-            <div className='mb-12'>
-              <Header />
-              <NavBar />
-              <Eventdetails3 />
+              <div className='mb-12'>
+                <Header />
+                <NavBar />
+                <Eventdetails3 />
               </div>
-            <Marquee />
+              <Marquee />
             </>
           } />
           <Route path="/eventdetails4" element={
             <>
-            <div className='mb-12'>
-              <Header />
-              <NavBar />
-              <Eventdetails4 />
+              <div className='mb-12'>
+                <Header />
+                <NavBar />
+                <Eventdetails4 />
               </div>
               <Marquee />
             </>
           } />
           <Route path="/eventdetails5" element={
             <>
-            <div className='mb-12'>
-              <Header />
-              <NavBar />
-              <Eventdetails5 />
+              <div className='mb-12'>
+                <Header />
+                <NavBar />
+                <Eventdetails5 />
               </div>
               <Marquee />
             </>
           } />
           <Route path="/eventdetails6" element={
             <>
-            <div className='mb-12'>
-              <Header />
-              <NavBar />
-              <Eventdetails6 />
+              <div className='mb-12'>
+                <Header />
+                <NavBar />
+                <Eventdetails6 />
               </div>
               <Marquee />
             </>
+          } />
+          <Route path="/dev" element={
+            <div className='h-screen'>
+              <Header />
+              <NavBar />
+              <Developer />
+            </div>
           } />
         </Routes>
       </HashRouter>

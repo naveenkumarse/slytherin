@@ -7,6 +7,7 @@ import appatakars from "./../assets/appatakars.png";
 import beingkecinan from "./../assets/bkecian.png";
 import MapofMTS from './googlemap/googlemap';
 import '../styles/footer.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -25,8 +26,8 @@ const Footer = () => {
                 <div className='font-mono mt-12'>
                     <div>
                         <ul>
-                            <a href='roboticsclub@kongu.ac.in' rel="noopener noreferrer " target={"_blank"} >
-                                <li className='py-2 text-sm '> <FaGoogle size={30} className="inline-block" />  roboticsclub@kongu.ac.in</li>
+                            <a href='mailto:competitions.rbc.kec@gmailcom' rel="noopener noreferrer " target={"_blank"} >
+                                <li className='py-2 text-sm '> <FaGoogle size={30} className="inline-block" />  competitions.rbc.kec</li>
                             </a>
                         </ul>
                         <br />
@@ -55,7 +56,7 @@ const Footer = () => {
             <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 relative mb-8'>
                 <hr />
                 <div className='flex justify-center allign-center '>
-                    <p className='px-4'>Copyrights</p> <p className='font-mono'>@</p><p>dreamimbue</p>
+                    <p className='px-4'>Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[#00df9a]'> <p  >dreamimbue</p></Link>
                 </div>
                 <hr />
             </div>

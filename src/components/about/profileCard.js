@@ -3,7 +3,7 @@ import React from 'react';
 const ProfileCard = (props) => {
     const {id,name,year,designation,img,alt} = props;
     return (
-    <div className="flex flex-col justify-center" key={id}>
+    <div className="" key={id}>
     <div
         className="relative font-mono tracking-tight flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 rounded-sm shadow-lg p-2 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
         <div className="w-full md:w-1/3 bg-white grid place-items-center">
