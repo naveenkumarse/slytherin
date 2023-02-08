@@ -10,15 +10,15 @@ import ReactTyped from 'react-typed';
 
 const Developer = () => {
     return (
-    <div className='relative h-3/5 '>
-        <h1 className='heading font-bold text-6xl text-[#00df9a] mt-12'>Dev
-    <ReactTyped
-        strings={['elopers']}
-        typeSpeed={120}
-        backSpeed={120}
-        loop
-    /></h1>
-        <div className='max-w-[1240px] py-16 w-full h-full flex justify-evenly flex-wrap text-gray-300 '>
+    <div className='relative h-3/5 flex flex-col justify-evenly'>
+        <h1 className='heading font-bold text-6xl text-[#00df9a] md:mt-12 mt-96'>Dev
+            <ReactTyped
+                strings={['elopers']}
+                typeSpeed={120}
+                backSpeed={120}
+                loop
+            /></h1>
+        <div className='max-w-[1240px] py-16 w-full flex justify-evenly flex-wrap text-gray-300 '>
             
             <div className='font-mono mt-10 flex flex-col justify-between mx-auto'>
             
@@ -71,10 +71,9 @@ const Developer = () => {
                 
             </div>
         </div>
-        
-            <div className='flex justify-center allign-center font-mono text-white'>
-            <p className='px-4'>Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[#00df9a]'> <p  >dreamimbue</p></Link>
-            </div>
+        <div className='flex justify-center allign-center font-mono text-white'>
+        <p className='px-4'>Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[#00df9a]'> <p  >dreamimbue</p></Link>
+        </div>
         
     </div>
     );
