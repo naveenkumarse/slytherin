@@ -19,9 +19,9 @@ const Eventdetails2 = () => {
                 <li>Students from different institutes can form a team. <br /></li>
                 <li>Robots will be inspected for safety and reliability before being allowed to compete.<br /></li>
                 <li>Disrupting opponent's power is not allowed. <br /></li>
-                <li>Arena is a 9 ft. X 6 ft. platform consisting of two ditches (a schematic diagram is illustrated herewith).<br /></li>
+                <li>Arena is a 10 ft. X 10 ft. Fully closed platform consisting of two ditches (a schematic diagram is illustrated herewith).<br /></li>
                 <li>Organizers reserve the right to ban/disqualify any robot at any point of time, due to safety or any other reason.<br /></li>
-                <li>ROBOCOMP organizing team have reserves the right to disqualify any participant who fails to adhere to the below mentioned game rules.<br /></li>
+                <li>ROBO WAR organizing team have reserves the right to disqualify any participant who fails to adhere to the below mentioned game rules.<br /></li>
                 <li>The decision of the coordinates will be final.<br /></li>
               </ul>
             </div>
@@ -31,7 +31,7 @@ const Eventdetails2 = () => {
             <div className=' p-[30px] unordered-list m-auto'>
               <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
 
-                <li>Permissible weight: Maximum 15 kg.<br /></li>
+                <li>Permissible weight: Maximum 8 kg with 10% tolerance .<br /></li>
                 <li>Maximum permissible volume. Fully unfolded robot must be within the limits of 40 cm X 55 cm (l x b). There is no maximum height for a robot (dictated by the design and weight constraints).<br /></li>
                 <li>Robot should be powered only by battery (For safety and security measures ). AC supply will be provided only for Charging.<br /></li>
                 <li>Robots can have weapons such as cutters, flippers, saws, lifting devices, spinning hammers etc. Use of liquid projectiles, any kind of inflammable liquid, flame-based weapons, radio jamming devices, high power magnets or electromagnets, are not permitted.<br /></li>

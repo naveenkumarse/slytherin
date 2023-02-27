@@ -68,7 +68,7 @@ const Eventdetails3 = () => {
             <h1 className="text-2xl text-center text-[#00df9a]">ROBOT SPECIFICATIONS</h1>
             <div className='p-[30px] unordered-list m-auto'>
               <ul className='text-[14px] font-mono marker:text-[24px] marker:text-[#00df9a] list-disc pl-5 space-y-3'>
-                <li>	The dimensions of the bot must not exceed (30 cm x 30 cm x 30 cm) at any point of the game and weight of the robot should exceed 8kgs.<br /></li>
+                <li>	The dimensions of the bot must not exceed (30 cm x 30 cm x 30 cm) at any point of the game and weight of the robot should not exceed 8kgs.<br /></li>
                 <li>	Both wired and wireless robots are allowed<br /></li>
                 <li>	Maximum working voltage of the bot should not exceed 12V.<br /></li>
                 <li>	In case of wired control, the participants must ensure that the wire length should be minimum 5 meters.<br /></li>
