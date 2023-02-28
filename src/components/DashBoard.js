@@ -28,7 +28,7 @@ const DashBoard = () => {
                         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Register soon</button>
                         </Link>
                         </div>
-                        <p className="md:text-lg text-sm text-white">Last date to Register March 01,2023.</p>
+                        <p className="md:text-lg text-sm text-white">Last date to Register March 11,2023.</p>
                         
                     </div>
                 </div>
